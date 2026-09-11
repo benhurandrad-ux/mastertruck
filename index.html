@@ -1,0 +1,1097 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Proteção Veicular sem SPC e Serasa em BH | Master Truck</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Associação de proteção veicular em BH há 14 anos, ISO 9001 e cobertura nacional. Carro, moto e caminhão sem consulta ao SPC e Serasa. Cotação no WhatsApp.">
+<meta name="theme-color" content="#151311">
+<link rel="icon" href="assets/icon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* ============ TOKENS ============ */
+:root{
+  --ink:#151311;--ink-2:#1C1917;--ink-3:#26221F;--ink-deep:#0E0D0B;
+  --paper:#F6F1EB;--white:#FFFFFF;--mist:#F3EDE6;--sand:#EAE2D8;
+  --brand:#EA5A1B;--glow:#FF8A3D;--brand-700:#B23F0D;
+  --steel:#A39B92;--steel-dk:#625A52;--text-l:#1C1917;
+  --line-d:rgba(255,255,255,.08);--line-l:#E2DAD0;
+  --wa:#25D366;--wa-dk:#1DB358;
+  --sans:'Instrument Sans',-apple-system,'SF Pro Display','Helvetica Neue',Arial,sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+  --ease-out:cubic-bezier(.22,1,.36,1);--ease-inout:cubic-bezier(.77,0,.18,1);
+  --pad:clamp(20px,4.5vw,72px);--r:22px;--r2:16px;--r3:12px;
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{overflow-x:clip}
+body{background:var(--ink);color:var(--mist);font-family:var(--sans);font-weight:400;-webkit-font-smoothing:antialiased;overflow-x:clip;line-height:1.5}
+::selection{background:var(--brand);color:#fff}
+html{scrollbar-color:var(--ink-3) var(--ink-deep);caret-color:var(--brand)}
+::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{background:var(--ink-deep)}::-webkit-scrollbar-thumb{background:var(--ink-3);border-radius:8px;border:2px solid var(--ink-deep)}
+.mono,.stop .big,.split .pane .row a,.split .pane .row b,footer .top a{font-variant-numeric:tabular-nums}
+.skip{position:absolute;left:12px;top:-60px;z-index:200;background:var(--brand);color:#fff;padding:10px 14px;border-radius:8px;font-weight:600}.skip:focus{top:12px}
+h1,h2,h3{text-wrap:balance;letter-spacing:-.025em;line-height:1.08;font-weight:600}
+h2{font-weight:500}
+a{color:inherit;text-decoration:none}
+img,svg{max-width:100%;display:block}
+button,input,select,textarea{font:inherit;color:inherit}
+button{background:none;border:0;cursor:pointer;touch-action:manipulation}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--brand);outline-offset:3px;border-radius:6px}
+section{position:relative;scroll-margin-top:66px}
+main>section:not(#hero){border-radius:32px 32px 0 0;box-shadow:0 -20px 50px -24px rgba(0,0,0,.55)}
+.veil{position:absolute;inset:0;background:#0E0D0B;opacity:0;pointer-events:none;z-index:40;border-radius:inherit}
+@media(max-width:900px){main>section:not(#hero){border-radius:24px 24px 0 0}}
+.dark{background:var(--ink);color:var(--mist)}
+.light{background:var(--paper);color:var(--text-l)}
+.wrap{padding-inline:var(--pad);max-width:1280px;margin-inline:auto}
+.center{text-align:center}.center .lead{margin-inline:auto}
+.label{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--glow)}
+.light .label{color:var(--brand-700)}
+.h2{font-size:clamp(26px,3.1vw,42px);margin:0 0 14px}
+.lead{font-size:clamp(16px,1.15vw,18px);max-width:560px;color:var(--steel)}
+.light .lead{color:var(--steel-dk)}
+.mono{font-family:var(--mono);font-weight:500}
+.grain{position:absolute;inset:0;pointer-events:none;background-image:var(--grain);background-size:180px;opacity:.05}
+.ico{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+
+/* ============ PRELOADER ============ */
+#loader{position:fixed;inset:0;z-index:100;pointer-events:none}
+#loader .pn{position:absolute;inset:0;background:var(--ink-2)}
+#loader .lg{position:fixed;left:50%;top:50%;width:min(520px,74vw);aspect-ratio:890/287;transform:translate(-50%,-50%);will-change:transform,width}
+#loader .ly{position:absolute;inset:0;width:100%;height:100%;opacity:0}
+#loader .shadow{position:absolute;left:16.6%;top:101%;width:31%;height:5%;border-radius:50%;background:radial-gradient(ellipse,rgba(0,0,0,.55),transparent 70%);opacity:0}
+html.js #nav .brand{opacity:0;transition:opacity .25s}
+html.js #nav.brand-on .brand{opacity:1}
+
+/* ============ NAV ============ */
+#nav{position:fixed;top:0;left:0;right:0;z-index:80;height:66px;display:flex;align-items:center;padding-inline:var(--pad);border-bottom:1px solid transparent;transition:background .4s,border-color .4s,transform .5s cubic-bezier(.23,1,.32,1),opacity .8s var(--ease-out),color .3s}
+html.js #nav{opacity:0;transform:translateY(-8px)}
+html.js #nav.in{opacity:1;transform:none}
+html.js #nav.in.hide{transform:translateY(-100%)}
+#nav.solid{background:rgba(21,19,17,.72);backdrop-filter:blur(16px) saturate(140%);-webkit-backdrop-filter:blur(16px) saturate(140%);border-color:var(--line-d)}
+#nav .brand{position:relative;display:block;width:152px;aspect-ratio:890/230}
+#nav .brand img{position:absolute;inset:0;width:100%;height:100%;transition:opacity .35s}
+#nav .brand .ld{opacity:0}
+#nav.on-light .brand .ld{opacity:1}#nav.on-light .brand .lw{opacity:0}
+#nav nav{margin-left:auto;margin-right:24px}#nav ul{list-style:none;display:flex;gap:24px}#nav ul a{display:inline-block;padding:12px 0}
+#nav ul a{font-size:13.5px;font-weight:500;color:rgba(243,237,230,.82);transition:color .2s;white-space:nowrap}
+#nav ul a:hover{color:#fff}
+#nav.on-light{color:var(--text-l)}
+#nav.on-light.solid{background:rgba(246,241,235,.78);border-color:rgba(28,25,23,.06)}
+#nav.on-light ul a{color:rgba(28,25,23,.72)}
+#nav.on-light ul a:hover{color:var(--text-l)}
+.pill{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-weight:600;font-size:14.5px;padding:12px 20px;min-height:44px;border-radius:999px;transition:transform .35s var(--ease-out),box-shadow .35s,background .25s,border-color .25s,color .25s;white-space:nowrap;cursor:pointer;line-height:1.2}
+.pill svg{width:16px;height:16px;flex:none}
+@media(hover:hover){.pill:hover{transform:translateY(-2px)}}
+.pill:active{transform:scale(.98)!important}
+.pill-brand{background:var(--brand);color:#fff}
+.pill-brand:hover{background:var(--glow);color:#1A0C04}
+.pill-wa{background:var(--wa);color:#04140A;box-shadow:0 10px 24px -10px rgba(0,0,0,.45)}
+.pill-wa:hover{background:#2EE07A}
+.pill-lg{font-size:16px;padding:16px 26px}
+#nav .pill{padding:9px 16px;font-size:13.5px;min-height:38px}
+#burger{display:none;margin-left:auto;width:42px;height:42px;flex-direction:column;justify-content:center;align-items:center;gap:6px}
+#burger i{width:22px;height:2px;background:currentColor;transition:transform .35s,opacity .3s}
+#mob{position:fixed;inset:0;z-index:79;background:rgba(28,25,23,.97);backdrop-filter:blur(20px);display:flex;flex-direction:column;justify-content:center;padding:var(--pad);gap:4px;transform:translateY(-100%);visibility:hidden;transition:transform .55s var(--ease-inout),visibility 0s .55s}
+#mob.open{transform:none;visibility:visible;transition-delay:0s}
+#mob a{font-size:clamp(26px,7vw,40px);font-weight:600;letter-spacing:-.03em;color:var(--mist);padding:8px 0;border-bottom:1px solid var(--line-d);opacity:0;transform:translateY(12px);transition:opacity .4s,transform .4s var(--ease-out)}
+#mob.open a{opacity:1;transform:none}
+#mob a:nth-child(2){transition-delay:.05s}#mob a:nth-child(3){transition-delay:.1s}#mob a:nth-child(4){transition-delay:.15s}#mob a:nth-child(5){transition-delay:.2s}#mob a:nth-child(6){transition-delay:.25s}
+@media(max-width:960px){#nav nav,#nav .pill{display:none}#burger{display:flex}#nav .brand{width:128px}body.mopen #burger i:nth-child(1){transform:translateY(8px) rotate(45deg)}body.mopen #burger i:nth-child(2){opacity:0}body.mopen #burger i:nth-child(3){transform:translateY(-8px) rotate(-45deg)}body.mopen #nav{color:var(--mist)}}
+
+/* ============ HERO (cinematic) ============ */
+#hero{height:100vh;height:100svh;min-height:600px;overflow:hidden;isolation:isolate;background:var(--ink)}
+.hstage{position:absolute;inset:0;perspective:1500px;will-change:transform}
+#hero>.veil{z-index:60}
+#net{position:absolute;inset:0;width:100%;height:100%;z-index:0;display:block;opacity:0;transform-origin:center}
+@media(max-width:900px){#net{opacity:.8!important}}
+#hero .fallback{position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse 60% 45% at 50% 62%,rgba(234,90,27,.16),transparent 70%),linear-gradient(180deg,transparent 55%,rgba(255,138,61,.08) 64%,transparent 74%),var(--ink)}
+#hero .scrim{position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(ellipse 60% 50% at 50% 45%,rgba(21,19,17,.42),rgba(21,19,17,.12) 60%,transparent 80%),linear-gradient(180deg,rgba(21,19,17,.55),transparent 22%,transparent 78%,var(--ink) 100%)}
+#hero .grain{z-index:30}
+.htext,.ctawrap{position:absolute;inset:0;z-index:10;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:90px var(--pad) 40px;will-change:transform,opacity}
+.htext h1{font-size:clamp(32px,4.4vw,60px);letter-spacing:-.035em;line-height:1.04;margin:0 0 18px;max-width:14ch}
+.htext h1 .t1,.htext h1 .t2{display:block}
+.htext h1 .t1{color:rgba(243,237,230,.55)}
+.htext h1 .t2{padding-bottom:.08em}
+.htext .sub{max-width:480px;font-size:clamp(16px,1.15vw,18px);color:rgba(243,237,230,.8);opacity:0}
+.htext .cta{display:flex;align-items:center;gap:22px;flex-wrap:wrap;justify-content:center;margin-top:30px;opacity:0}
+.htext .more{font-weight:600;font-size:15px;display:inline-flex;align-items:center;gap:8px;color:var(--mist)}
+.htext .more svg{width:16px;height:16px;transition:transform .3s var(--ease-out)}
+@media(hover:hover){.htext .more:hover svg{transform:translateX(4px)}}
+.ctawrap{visibility:hidden;opacity:0}
+.ctawrap h2{font-size:clamp(28px,3.6vw,50px);max-width:16ch;margin-bottom:14px}
+.ctawrap p{max-width:460px;color:var(--steel);font-size:clamp(16px,1.15vw,18px)}
+.ctawrap .btns{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:34px}
+.pill-out{border:1.5px solid var(--brand);color:var(--glow);background:transparent}
+.pill-out:hover{background:rgba(234,90,27,.12)}
+.cardwrap{position:absolute;inset:0;z-index:20;pointer-events:none}
+.mcard{position:absolute;inset:0;pointer-events:auto;border-radius:32px;overflow:hidden;isolation:isolate;transform:translateZ(0);background:linear-gradient(160deg,#26221F,#1C1917 55%,#0E0D0B);border:1px solid rgba(243,237,230,.06);box-shadow:0 30px 70px -30px rgba(0,0,0,.6),inset 0 1px 0 rgba(243,237,230,.05);visibility:hidden;will-change:transform}
+.mcard .sheen{position:absolute;inset:0;pointer-events:none;z-index:5;background:radial-gradient(600px circle at var(--mx,50%) var(--my,50%),rgba(255,138,61,.10),transparent 60%);mix-blend-mode:screen}
+.mcard .cgrid{position:relative;z-index:2;width:100%;height:100%;max-width:1400px;margin:0 auto;padding:0 var(--pad);display:grid;grid-template-columns:24% 1fr 24%;align-items:center;gap:20px}
+.cleft{visibility:hidden}
+.cleft h3{font-size:clamp(20px,1.9vw,28px);color:var(--mist);margin-bottom:12px}
+.cleft p{color:var(--steel);font-size:clamp(14px,1.05vw,16px);max-width:34ch}
+.cmid{position:relative;height:min(62vh,600px);perspective:1200px;transform-style:preserve-3d}
+.fwrap{position:absolute;inset:0;visibility:hidden;transform-style:preserve-3d;will-change:transform}
+.fimg{position:absolute;width:124%;left:-12%;bottom:-2%}
+.fimg img{width:100%;height:auto;display:block;filter:drop-shadow(0 40px 50px rgba(0,0,0,.55))}
+.fchip{position:absolute;transform:translate(-50%,-50%);font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.06em;padding:7px 11px;border-radius:8px;background:rgba(28,25,23,.72);border:1px solid rgba(243,237,230,.12);color:var(--mist);white-space:nowrap;visibility:hidden}
+.badge{position:absolute;display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:16px;background:rgba(38,34,31,.88);border:1px solid rgba(243,237,230,.08);box-shadow:0 25px 50px -12px rgba(0,0,0,.6),inset 0 1px 0 rgba(243,237,230,.08);visibility:hidden;z-index:4}
+.badge .ico{width:22px;height:22px;color:var(--steel);flex:none}
+.badge b{display:block;font-size:13.5px;color:var(--mist);font-weight:600;line-height:1.2}
+.badge span{font-size:12px;color:var(--steel)}
+.b1{top:12%;left:-2%}.b2{bottom:16%;right:-2%}
+.cright{display:flex;justify-content:flex-end;visibility:hidden}
+.wm{font-weight:700;font-size:clamp(52px,6vw,88px);letter-spacing:-.055em;line-height:.9;text-transform:uppercase;background:linear-gradient(180deg,#F3EDE6 0%,#A39B92 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;transform:translateZ(0);filter:drop-shadow(0 12px 24px rgba(0,0,0,.6))}
+@media(max-width:900px){
+  #hero{min-height:0}
+  .htext,.ctawrap{padding:84px 22px 30px}
+  .htext h1{font-size:clamp(28px,7.6vw,36px)}
+  .mcard{border-radius:28px}
+  .mcard .cgrid{grid-template-columns:1fr;grid-template-rows:auto 1fr auto;padding:70px 20px 28px;gap:8px;align-items:stretch}
+  .cright{order:-1;justify-content:center}
+  .wm{font-size:17vw}
+  .cmid{height:auto;min-height:0;perspective:none;display:flex;flex-direction:column;justify-content:flex-end}
+  .fwrap{position:relative;inset:auto}
+  .fimg{position:relative;width:100%;left:0;bottom:0}
+  .fchip{display:none}
+  .badge{position:static;visibility:hidden}
+  .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:10px}
+  .cleft{text-align:center}.cleft p{margin:0 auto}
+}
+@media(min-width:901px){.badges{display:contents}}
+html.rm #hero{height:auto;min-height:0;perspective:none}
+html.rm .htext{position:relative;min-height:100svh}
+html.rm .htext .label,html.rm .htext .sub,html.rm .htext .cta{opacity:1}
+html.rm .htext h1 .t1,html.rm .htext h1 .t2{visibility:visible}
+html.rm .cardwrap{position:relative;inset:auto;height:100vh}
+html.rm .mcard,html.rm .cleft,html.rm .fwrap,html.rm .fchip,html.rm .badge,html.rm .cright,html.rm .ctawrap{visibility:visible;opacity:1}
+html.rm .ctawrap{position:relative;min-height:70vh}
+
+/* ============ COBERTURAS ============ */
+#coberturas{padding:clamp(64px,8vw,104px) 0}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:48px}
+.cov{background:var(--white);border-radius:var(--r);padding:24px 22px 22px;border:1px solid rgba(28,25,23,.06);box-shadow:0 20px 50px -30px rgba(28,25,23,.30);transition:transform .5s var(--ease-out),box-shadow .5s;min-height:190px;display:flex;flex-direction:column}
+.cov.g{background:var(--sand)}
+@media(hover:hover){.cov:hover{transform:translateY(-4px);box-shadow:0 28px 60px -28px rgba(28,25,23,.38)}.cov:hover .ico{color:var(--brand);transform:scale(1.08)}}
+.cov .ico{color:var(--steel-dk);transition:color .35s,transform .35s var(--ease-out);width:28px;height:28px;margin-bottom:auto}
+.cov .ico path,.cov .ico circle,.cov .ico rect{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .7s cubic-bezier(.65,0,.35,1)}
+.cov.rv{transform:translateY(12px) scale(.985)}
+.cov.in .ico path,.cov.in .ico circle,.cov.in .ico rect{stroke-dashoffset:0}
+.cov h3{font-size:17px;margin:20px 0 6px}
+.cov p{font-size:14px;color:var(--steel-dk);line-height:1.45}
+@media(max-width:1000px){.grid4{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:640px){.grid4{grid-template-columns:1fr 1fr;gap:10px}.cov{padding:18px 16px 16px;min-height:0}.cov h3{font-size:16px;margin-top:16px}.cov p{font-size:13px}}
+
+/* ============ VEÍCULOS ============ */
+#veiculos{padding:clamp(64px,8vw,104px) 0 0}
+.swipe{display:none;align-items:center;gap:8px;margin-top:28px;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--glow)}
+.swipe svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;animation:nudge 1.4s ease-in-out infinite}
+@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(6px)}}
+.swipe.on{display:inline-flex}.swipe.on+.tabs{margin-top:10px}
+@media(prefers-reduced-motion:reduce){.swipe svg{animation:none}}
+.tabs{position:relative;display:flex;gap:6px;margin-top:36px;padding:6px;border-radius:999px;background:var(--ink-2);border:1px solid var(--line-d);width:max-content;max-width:100%;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabs i{position:absolute;top:6px;bottom:6px;left:0;width:0;border-radius:999px;background:var(--brand);transition:transform .4s var(--ease-out);z-index:0;will-change:transform}
+.tabs button{position:relative;z-index:1;padding:12px 18px;min-height:44px;border-radius:999px;font-weight:600;font-size:14px;color:var(--steel);white-space:nowrap;scroll-snap-align:start;transition:color .3s}
+.tabs button[aria-selected=true]{color:#fff}
+.vpanel{position:relative;margin-top:22px;border-radius:var(--r) var(--r) 0 0;background:var(--ink-2);border:1px solid var(--line-d);border-bottom:0;overflow:hidden;display:grid;grid-template-columns:1fr 1.25fr;align-items:end}
+.vpanel .pic{position:relative;z-index:1;padding:clamp(28px,4vw,56px) clamp(20px,3vw,40px) 0 0;align-self:end}
+.vpanel .frota{width:100%;height:auto;display:block;filter:drop-shadow(0 30px 40px rgba(0,0,0,.45))}
+.vpanel .fade{position:absolute;inset:0;z-index:0;background:radial-gradient(ellipse 50% 60% at 72% 80%,rgba(255,138,61,.10),transparent 70%)}
+.vpanel .txt{position:relative;z-index:2;padding:clamp(24px,3.4vw,48px);display:flex;flex-direction:column;justify-content:flex-end;min-height:440px;align-self:stretch}
+.vpanel .txt h3{font-size:clamp(22px,2.2vw,30px);margin-bottom:10px}
+.vpanel .txt p{color:var(--steel);max-width:44ch;font-size:16px}
+.vpanel .txt .tag{display:inline-flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+.vpanel .txt .tag span{font-family:var(--mono);font-size:12px;padding:6px 10px;border-radius:8px;border:1px solid var(--line-d);color:var(--mist)}
+.vpanel .sil{position:relative;z-index:2;margin-bottom:auto;padding-bottom:22px}
+.vpanel .sil svg{width:min(200px,100%);height:auto;stroke:var(--glow);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;opacity:.9}
+.vpanel .sil path,.vpanel .sil circle{stroke-dasharray:1;stroke-dashoffset:1}
+.vpanel .sil.draw path,.vpanel .sil.draw circle{animation:draw .9s cubic-bezier(.65,0,.35,1) forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.vpanel .fx{transition:opacity .18s}
+@media(max-width:900px){.vpanel{grid-template-columns:1fr}.vpanel .pic{padding:0 16px}.vpanel .sil svg{width:180px}.vpanel .txt{min-height:0;padding-bottom:10px}}
+
+/* ============ CHAMADO (timeline vertical) ============ */
+#chamado{padding:clamp(64px,8vw,104px) 0}
+#chamado .stage{max-width:1280px;margin:0 auto;padding-inline:var(--pad)}
+#chamado .head{max-width:760px}
+#chamado .track{position:relative;margin-top:48px;padding-left:40px;max-width:760px}
+#chamado .vline{position:absolute;left:8px;top:8px;bottom:36px;width:2px;background:var(--line-d)}
+#chamado .vline i{position:absolute;inset:0;background:var(--brand);transform-origin:top;transform:scaleY(0)}
+.stop{position:relative;padding:0 0 44px}
+.stop::before{content:"";position:absolute;left:-37px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--ink-3);border:2px solid var(--steel);box-sizing:border-box;transition:background .3s,border-color .3s,box-shadow .3s}
+.stop.on::before{background:var(--brand);border-color:var(--brand);box-shadow:0 0 0 6px rgba(234,90,27,.15)}
+.stop .n{font-family:var(--mono);font-size:13px;color:var(--steel);transition:color .4s}
+.stop.on .n{color:var(--glow)}
+.stop h3{font-size:clamp(20px,1.8vw,26px);margin:8px 0 6px}
+.stop p{color:var(--steel);font-size:16px;max-width:52ch}
+.stop .big{font-family:var(--mono);font-size:clamp(19px,1.7vw,24px);color:var(--mist);margin-top:14px;font-weight:500}
+.stop .row{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+.stop .row span{display:inline-flex;align-items:center;gap:8px;font-size:13.5px;padding:8px 12px;border-radius:10px;background:var(--ink-2);border:1px solid var(--line-d);color:var(--mist)}
+.stop .row .ico{width:18px;height:18px}
+#chamado .prog,#chamado .halo{display:none}
+@media(max-width:900px){#chamado .track{padding-left:30px}.stop::before{left:-27px}#chamado .vline{left:3px}}
+
+/* chamado em claro */
+.light .stop p{color:var(--steel-dk)}.light .stop .big{color:var(--text-l)}.light .stop .n{color:var(--steel-dk)}.light .stop.on .n{color:var(--brand-700)}.light .stop .row span{background:var(--white);border-color:var(--line-l);color:var(--text-l)}.light#chamado .vline{background:var(--line-l)}.light .stop::before{background:var(--paper);border-color:var(--steel-dk)}
+/* regras em escuro (superficie --ink-2 para nao colar no #brasil) */
+#regras.dark{background:var(--ink-2)}.dark .ledger .rules li{color:var(--steel)}.dark .cmp{border-top-color:var(--line-d)}.dark .cmp .hd,.dark .cmp .row{border-bottom-color:var(--line-d)}.dark .cmp .hd{color:var(--steel)}.dark .cmp .row p{color:var(--steel)}.dark .cmp .row p.m{color:var(--mist)}.dark .cmp .note{color:var(--steel)}
+@media(max-width:900px){.dark .cmp .row p::before{color:var(--steel)}.dark .cmp .row p.m::before{color:var(--glow)}}
+
+/* ============ REGRAS (ledger) ============ */
+#regras{padding:clamp(64px,8vw,104px) 0}
+.ledger{display:grid;grid-template-columns:5fr 7fr;gap:48px;align-items:start}
+.ledger .sticky{position:sticky;top:96px}
+.ledger .sticky .h2{max-width:16ch}
+.ledger .rules{margin-top:26px;display:grid;gap:12px}
+.ledger .rules li{list-style:none;display:grid;grid-template-columns:32px 1fr;gap:10px;font-size:15.5px;color:var(--steel-dk)}
+.ledger .rules li b{width:8px;height:8px;border-radius:50%;background:var(--brand);margin-top:9px}
+.ledger .rules li{grid-template-columns:8px 1fr;gap:14px}
+.cmp{display:grid;gap:0;border-top:1px solid var(--line-l)}
+.cmp .hd,.cmp .row{display:grid;grid-template-columns:1.1fr 1.6fr 1.6fr;gap:18px;padding:18px 0;border-bottom:1px solid var(--line-l)}
+.cmp .hd{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--steel-dk);padding:10px 0}
+.cmp .row b{font-weight:600;font-size:15px}
+.cmp .row p{font-size:14.5px;color:var(--steel-dk)}
+.cmp .row p.m{color:var(--text-l)}
+.cmp .row p.m::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--brand);margin-right:8px;vertical-align:1px}
+.cmp .note{font-size:13px;color:var(--steel-dk);padding-top:18px;max-width:70ch}
+@media(max-width:900px){.ledger{grid-template-columns:1fr;gap:28px}.ledger .sticky{position:static}.cmp .hd{display:none}.cmp .row{grid-template-columns:1fr;gap:6px}.cmp .row p::before{content:"Concorrente: ";font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--steel-dk)}.cmp .row p.m::before{content:"Master: ";width:auto;height:auto;border-radius:0;background:none;color:var(--brand-700);margin:0}}
+
+/* ============ BRASIL ============ */
+#brasil{padding:clamp(64px,8vw,104px) 0;overflow:hidden}
+#brasil .map{position:relative;width:min(340px,64%);margin:32px auto 0;opacity:0;transform:scale(.96)}
+#brasil .map img{width:100%;height:auto}
+#brasil .dot{position:absolute;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:var(--mist);opacity:0;transform:scale(.4);box-shadow:0 0 0 3px rgba(243,237,230,.18)}
+#brasil .ring{position:absolute;left:78%;top:32%;width:28px;height:28px;margin:-14px 0 0 -14px;border-radius:50%;border:2px solid var(--glow);opacity:0}
+#brasil .ring.r2{animation-delay:1.2s}
+#brasil.live .ring{animation:ring 2.4s cubic-bezier(.2,.6,.4,1) infinite}
+@keyframes ring{0%{transform:scale(1);opacity:.55}100%{transform:scale(2.6);opacity:0}}
+#brasil .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:40px auto 0;max-width:960px}
+#brasil .facts div{padding:18px 20px;border-radius:var(--r2);background:var(--ink-2);border:1px solid var(--line-d);font-size:14.5px;color:var(--steel)}
+#brasil .facts div b{display:block;color:var(--mist);font-weight:600;margin-bottom:4px;font-size:15.5px}
+@media(max-width:700px){#brasil .facts{grid-template-columns:1fr}#brasil .dot{width:8px;height:8px;margin:-4px 0 0 -4px}}
+
+/* ============ SÉRIA ============ */
+#seria{padding:clamp(64px,8vw,104px) 0}
+.ed{display:grid;grid-template-columns:auto 1fr;gap:clamp(24px,5vw,72px);align-items:end}
+.ed .num{font-size:clamp(84px,10vw,140px);line-height:.85;letter-spacing:-.06em;font-weight:600;color:var(--text-l)}
+.ed .num small{display:block;font-size:14px;letter-spacing:.12em;text-transform:uppercase;font-family:var(--mono);font-weight:500;color:var(--brand-700);margin-top:14px}
+.ed .h2{max-width:14ch}
+.ed p{font-size:16px;color:var(--steel-dk);max-width:58ch}
+.proofs{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:56px}
+.proof{background:var(--white);border-radius:var(--r);padding:26px;border:1px solid rgba(28,25,23,.06);box-shadow:0 20px 50px -30px rgba(28,25,23,.30);min-height:210px;display:flex;flex-direction:column;justify-content:flex-end}
+.proof img{width:96px;height:auto;margin-bottom:auto;opacity:.85}
+.proof .k{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--steel-dk);margin-bottom:auto}
+.proof h3{font-size:18px;margin:16px 0 6px}
+.proof p{font-size:14.5px;color:var(--steel-dk)}
+.steps{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:14px}
+.steps div{padding:20px 22px;border-radius:var(--r2);background:var(--sand);font-size:14.5px;color:var(--steel-dk)}
+.steps div b{display:block;color:var(--text-l);font-weight:600;margin-bottom:4px;font-size:16px}
+.steps div i{font-style:normal;font-family:var(--mono);font-size:12px;color:var(--brand-700);display:block;margin-bottom:8px}
+@media(max-width:900px){.ed{grid-template-columns:1fr;gap:20px}.proofs,.steps{grid-template-columns:1fr}.proof{min-height:0}.proof img{margin-bottom:12px}}
+
+/* ============ PAINEL (indicadores) ============ */
+#painel{padding:clamp(64px,8vw,104px) 0}
+.dash{margin-top:36px;background:var(--ink-2);border:1px solid var(--line-d);border-radius:var(--r);overflow:hidden;box-shadow:0 40px 90px -50px rgba(0,0,0,.8)}
+.dash .bar{display:flex;align-items:center;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line-d);flex-wrap:wrap}
+.dash .bar .ttl{font-weight:600;font-size:14.5px;color:var(--mist);display:flex;align-items:center;gap:10px}
+.dash .bar .ttl i{width:8px;height:8px;border-radius:50%;background:var(--brand);box-shadow:0 0 0 3px rgba(234,90,27,.18);animation:live 2.4s ease-in-out infinite}
+@keyframes live{0%,100%{box-shadow:0 0 0 3px rgba(234,90,27,.18)}50%{box-shadow:0 0 0 7px rgba(234,90,27,0)}}
+.dash .bar,.dash .note{opacity:0}.dash.in .bar,.dash.in .note{opacity:1;transition:opacity .6s}
+.dash .tile,.dash .chart{opacity:0;transform:translateY(18px) scale(.985)}
+.dash.in .tile,.dash.in .chart{opacity:1;transform:none;transition:opacity .7s var(--ease-out),transform .7s var(--ease-out)}
+.dash.in .tile:nth-child(2){transition-delay:.07s}.dash.in .tile:nth-child(3){transition-delay:.14s}.dash.in .tile:nth-child(4){transition-delay:.21s}.dash.in .chart{transition-delay:.32s}.dash.in .chart.c7{transition-delay:.42s}.dash.in .chart.c12{transition-delay:.52s}
+.chart .mk.live{animation:ring2 2.4s cubic-bezier(.2,.6,.4,1) infinite}
+@keyframes ring2{0%{stroke-opacity:1;r:4.5}70%{stroke-opacity:0;r:12}100%{stroke-opacity:0;r:12}}
+.dash .sweep{position:absolute;inset:0;pointer-events:none;background:linear-gradient(100deg,transparent 30%,rgba(255,138,61,.07) 50%,transparent 70%);background-size:220% 100%;background-position:120% 0;opacity:0;z-index:3}
+@media(prefers-reduced-motion:reduce){.dash .bar .ttl i,.chart .mk.live{animation:none}.dash .tile,.dash .chart,.dash .bar,.dash .note{opacity:1;transform:none}}
+.dash .bar .fl{display:flex;gap:8px;margin-left:auto;flex-wrap:wrap}
+.dash .fl button{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:500;color:var(--mist);background:var(--ink-3);border:1px solid var(--line-d);padding:8px 12px;border-radius:9px;min-height:36px}
+.dash .fl button svg{width:14px;height:14px;stroke:var(--steel);fill:none;stroke-width:2;stroke-linecap:round}
+.dash .fl button[aria-pressed=true]{border-color:var(--brand);color:#fff}
+.dash .bar .ttl{margin-right:auto}
+.dash .upd{font-family:var(--mono);font-size:11px;color:var(--steel);letter-spacing:.04em}
+.dash .body{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;padding:14px}
+.tile{grid-column:span 3;min-height:150px;background:var(--ink);border:1px solid var(--line-d);border-radius:var(--r2);padding:16px 18px;min-height:112px;display:flex;flex-direction:column;justify-content:space-between}
+.tile .k{font-size:12.5px;color:var(--steel);font-weight:500}
+.tile .v{font-size:clamp(28px,2.6vw,38px);font-weight:600;letter-spacing:-.03em;color:var(--mist);font-variant-numeric:tabular-nums;line-height:1}
+.tile .v small{font-size:13px;font-weight:500;color:var(--steel);letter-spacing:0;margin-left:6px}
+.tile .d{font-size:12px;color:var(--steel);display:flex;align-items:center;gap:6px}
+.tile .d b{color:var(--glow);font-weight:600}
+.chart{background:var(--ink);border:1px solid var(--line-d);border-radius:var(--r2);padding:16px 18px 12px;position:relative}
+.chart h4{font-size:14px;font-weight:600;color:var(--mist);margin-bottom:2px}
+.chart .sub{font-size:12px;color:var(--steel);margin-bottom:12px}
+.chart svg{width:100%;height:auto;display:block;overflow:visible}
+.chart .ax{fill:var(--steel);font-size:11px;font-family:var(--sans)}
+.chart .grid{stroke:rgba(255,255,255,.07);stroke-width:1}
+.chart .lbl{fill:var(--mist);font-size:12px;font-family:var(--sans)}
+.chart .val{fill:var(--steel);font-size:11.5px;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.chart .b{fill:var(--brand);transform-origin:0 50%;transform:scaleX(0);transition:transform .9s var(--ease-out)}
+.chart.in .b{transform:scaleX(1)}
+.chart .ln{fill:none;stroke:var(--glow);stroke-width:2;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1}
+.chart.in .ln{animation:draw 1.4s cubic-bezier(.65,0,.35,1) forwards}
+.chart .ar{fill:url(#agrad);opacity:0;transition:opacity .8s .6s}
+.chart.in .ar{opacity:1}
+.chart .mk{fill:var(--ink);stroke:var(--glow);stroke-width:2;opacity:0;transition:opacity .2s}
+.chart .hit{fill:transparent}
+.chart .tip{position:absolute;pointer-events:none;background:var(--ink-3);border:1px solid rgba(255,255,255,.12);color:var(--mist);font-size:12px;padding:6px 9px;border-radius:8px;transform:translate(-50%,-110%);white-space:nowrap;opacity:0;transition:opacity .15s;box-shadow:0 10px 24px -10px rgba(0,0,0,.7)}
+.chart .tip b{font-family:var(--mono);font-weight:500;color:#fff}
+.chart .xh{stroke:rgba(255,255,255,.18);stroke-width:1;opacity:0}
+.chart .tb{margin-top:8px;font-size:12px;color:var(--steel);background:none;border:0;text-decoration:underline;text-underline-offset:3px;cursor:pointer;padding:6px 0;min-height:32px}
+.chart table{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:6px;display:none}
+.chart table.on{display:table}
+.chart td,.chart th{padding:6px 0;border-top:1px solid var(--line-d);text-align:left;color:var(--steel);font-weight:500}
+.chart td:last-child,.chart th:last-child{text-align:right;font-family:var(--mono);color:var(--mist)}
+.c4{grid-column:span 4}.c5{grid-column:span 5}.c7{grid-column:span 7}.c8{grid-column:span 8}.c12{grid-column:span 12}
+.dn{display:grid;grid-template-columns:150px 1fr;gap:14px;align-items:center}
+.dn svg{width:150px;height:150px}
+.chart .ds{stroke-dasharray:0 1000;transition:stroke-dasharray 1.1s var(--ease-out)}
+.chart.in .ds{stroke-dasharray:var(--d)}
+.chart .dv{fill:var(--mist);font-size:26px;font-weight:600;font-family:var(--sans);letter-spacing:-.02em}
+.chart .dl{fill:var(--steel);font-size:10px;font-family:var(--sans)}
+.dn ul{list-style:none;display:grid;gap:7px;font-size:12.5px;color:var(--steel)}
+.dn li{display:flex;align-items:center;gap:8px}.dn li i{width:10px;height:10px;border-radius:3px;flex:none}.dn li b{margin-left:auto;font-family:var(--mono);font-weight:500;color:var(--mist)}
+.chart .scan{fill:#fff;opacity:0}
+@media(max-width:900px){.c4,.c8{grid-column:span 12}.dn{grid-template-columns:120px 1fr}.dn svg{width:120px;height:120px}}
+.dash .note{padding:10px 18px 14px;font-size:12px;color:var(--steel);border-top:1px solid var(--line-d);display:flex;gap:8px;align-items:center}
+.dash .note i{width:8px;height:8px;border-radius:2px;background:var(--brand);flex:none;opacity:.7}
+@media(max-width:900px){.tile{grid-column:span 6}.c5,.c7{grid-column:span 12}.dash .body{padding:10px;gap:10px}.dash .bar .fl{margin-left:0}}
+@media(max-width:480px){.tile{grid-column:span 12;flex-direction:row;align-items:center;min-height:0}.tile .d{display:none}}
+/* FAQ em claro, contato em escuro */
+.light .acc{border-top-color:var(--line-l)}.light .acc .it{border-bottom-color:var(--line-l)}.light .acc button{color:var(--text-l)}.light .acc button svg{stroke:var(--brand-700)}.light .acc .a p{color:var(--steel-dk)}
+.dark .form .f label{color:var(--text-l)}
+
+/* ============ FAQ ============ */
+#faq{padding:clamp(64px,8vw,104px) 0}
+.acc{max-width:760px;margin:36px auto 0;border-top:1px solid var(--line-d)}
+.acc .it{border-bottom:1px solid var(--line-d);transition:border-color .4s}
+.acc .it.open{border-bottom-color:rgba(234,90,27,.4)}
+.acc button{width:100%;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:20px 0;text-align:left;font-weight:600;font-size:clamp(16px,1.2vw,17px);color:var(--mist);min-height:44px}
+.acc button svg{width:20px;height:20px;flex:none;stroke:var(--glow);fill:none;stroke-width:2;stroke-linecap:round;transition:transform .3s var(--ease-out)}
+.acc .it.open button svg{transform:rotate(180deg)}
+.acc .a{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s var(--ease-out)}
+.acc .it.open .a{grid-template-rows:1fr}
+.acc .a>div{overflow:hidden}
+.acc .a p{padding:0 0 20px;color:var(--steel);font-size:15.5px;max-width:64ch}
+
+/* ============ CONTATO ============ */
+#contato{padding:clamp(64px,8vw,104px) 0}
+.split{display:grid;grid-template-columns:5fr 7fr;gap:0;border-radius:var(--r);overflow:hidden;box-shadow:0 30px 70px -40px rgba(28,25,23,.4);margin-top:40px}
+.split .pane{background:radial-gradient(120% 80% at 0% 0%,rgba(255,138,61,.35),transparent 60%),var(--brand-700);color:var(--mist);padding:clamp(28px,3.4vw,48px);display:flex;flex-direction:column;gap:22px;opacity:0;transform:translateX(-24px)}
+.split .pane h3{font-size:clamp(22px,2vw,28px);color:#fff}
+.split .pane .row{display:grid;gap:4px}
+.split .pane .row span{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.75)}
+.split .pane .row a,.split .pane .row b{font-family:var(--mono);font-weight:500;font-size:clamp(16px,1.3vw,18px);color:#fff;padding:6px 0}
+.split .pane .row small{font-size:13.5px;color:rgba(255,255,255,.8)}
+.split .pane .pill{align-self:flex-start;margin-top:auto}
+.split .form{background:var(--white);padding:clamp(28px,3.4vw,48px);opacity:0;transform:translateX(24px)}
+.split .pane.in,.split .form.in{opacity:1;transform:none;transition:opacity .9s var(--ease-out),transform .9s var(--ease-out)}
+.form .f2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.form .f{display:grid;gap:6px;margin-bottom:14px}
+.form label{font-size:13.5px;font-weight:600;color:var(--text-l)}
+.form input,.form select{width:100%;height:50px;padding:0 14px;border-radius:var(--r3);border:1px solid var(--line-l);background:var(--white);font-size:16px;color:var(--text-l);transition:border-color .2s}
+.form select{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23625A52' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:40px}
+.form input:focus,.form select:focus{border-color:var(--brand);outline:none;box-shadow:0 0 0 3px rgba(234,90,27,.15)}
+.form .err{font-size:12.5px;color:#B3261E;display:none}
+.form .f.bad input{border-color:#B3261E}.form .f.bad .err{display:block}
+.form .pill{width:100%;margin-top:6px}
+.form .priv{font-size:12.5px;color:var(--steel-dk);margin-top:12px;text-align:center}
+.form .ok{display:none;padding:18px;border-radius:var(--r2);background:var(--sand);font-size:15px;color:var(--text-l);margin-top:14px}
+@media(max-width:900px){.split{grid-template-columns:1fr}.form .f2{grid-template-columns:1fr}}
+
+/* ============ FOOTER ============ */
+footer{background:var(--ink-deep);color:var(--steel);padding:64px 0 28px;font-size:14px}
+footer .top{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:40px;padding-bottom:36px;border-bottom:1px solid var(--line-d)}
+footer .top img.lg{width:190px;height:auto;margin-bottom:14px}
+footer .top p{max-width:46ch;line-height:1.6}
+footer .top b{display:block;color:var(--mist);margin-bottom:12px;font-weight:600}
+footer .top a{display:block;padding:8px 0;color:var(--steel);transition:color .2s}
+footer .top a:hover{color:var(--mist)}
+footer .iso{display:flex;align-items:center;gap:14px;margin-top:18px}
+footer .iso img{width:44px;height:auto;opacity:.5}
+footer .iso span{font-size:12.5px;max-width:30ch}
+footer .bottom{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-top:22px;font-size:12.5px}
+@media(max-width:820px){footer .top{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){footer .top{grid-template-columns:1fr}}
+
+/* ============ WA FAB ============ */
+#wa-fab{position:fixed;right:22px;bottom:22px;z-index:85;width:58px;height:58px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 14px 32px -12px rgba(0,0,0,.6);transform:scale(0);transition:transform .6s cubic-bezier(.34,1.4,.64,1)}
+#wa-fab.on{transform:scale(1)}
+@media(hover:hover){#wa-fab.on:hover{transform:scale(1.06)}}
+#wa-fab svg{width:27px;height:27px;color:#04140A}
+
+/* ============ PISTA DE ROLAGEM ============ */
+.cue{position:absolute;left:50%;bottom:16px;transform:translateX(-50%);z-index:45;display:flex;flex-direction:column;align-items:center;gap:2px;font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--steel);opacity:0;transition:opacity .6s;pointer-events:none}
+.light .cue{color:var(--steel-dk)}
+.cue svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;animation:cue 2.2s ease-in-out infinite}
+@keyframes cue{0%,100%{transform:translateY(0);opacity:.55}50%{transform:translateY(6px);opacity:1}}
+.cue.on{opacity:.8}
+#hero .cue{bottom:20px;z-index:45}
+@media(max-width:900px){.cue{bottom:12px;font-size:10px}.cue svg{width:20px;height:20px}}
+@media(prefers-reduced-motion:reduce){.cue svg{animation:none}}
+
+/* ============ REVEALS ============ */
+.wl{display:inline-block;overflow:hidden;vertical-align:bottom;padding-bottom:.08em;margin-bottom:-.08em}
+.wl>span{display:inline-block;will-change:transform}
+.js .split-h .wl>span{transform:translateY(110%)}
+.rv{opacity:0;transform:translateY(14px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+.rv-d1{transition-delay:.06s}.rv-d2{transition-delay:.12s}.rv-d3{transition-delay:.18s}.rv-d4{transition-delay:.24s}.rv-d5{transition-delay:.3s}.rv-d6{transition-delay:.36s}.rv-d7{transition-delay:.42s}
+@media(prefers-reduced-motion:reduce){
+  .rv{transition-duration:.3s;transform:none}
+  #brasil.live .ring{animation:none}
+  .cov .ico path,.cov .ico circle,.cov .ico rect,.vpanel .sil path,.vpanel .sil circle{stroke-dasharray:none;stroke-dashoffset:0;animation:none}
+}
+</style>
+</head>
+<body>
+
+<div id="loader" aria-hidden="true">
+  <div class="pn"></div>
+  <div class="lg" id="lg">
+    <div class="shadow"></div>
+    <img class="ly ring" src="assets/lg_ring.webp" alt=""><img class="ly car" src="assets/lg_car.webp" alt=""><img class="ly master" src="assets/lg_master.webp" alt=""><img class="ly autos" src="assets/lg_autos.webp" alt="">
+  </div>
+</div>
+
+<a class="skip" href="#coberturas">Pular para o conteúdo</a>
+<header id="nav">
+  <a class="brand" href="#hero" aria-label="Master Autos e Truck"><img class="lw" id="navlogo" src="assets/logo_nav_white.png" alt="Master Autos e Truck" width="890" height="230"><img class="ld" src="assets/logo_nav_dark.png" alt="" width="890" height="230" aria-hidden="true"></a>
+  <nav aria-label="Seções"><ul>
+    <li><a href="#coberturas">Coberturas</a></li>
+    <li><a href="#chamado">Assistência 24h</a></li>
+    <li><a href="#regras">Master x concorrente</a></li>
+    <li><a href="#faq">Dúvidas</a></li>
+  </ul></nav>
+  <a class="pill pill-brand" href="https://wa.me/553128420992?text=Ol%C3%A1%21%20Quero%20uma%20cota%C3%A7%C3%A3o%20de%20prote%C3%A7%C3%A3o%20veicular%20na%20Master%20Autos%20%26%20Truck." target="_blank" rel="noopener">Pedir cotação</a>
+  <button id="burger" aria-label="Menu" aria-expanded="false"><i></i><i></i><i></i></button>
+</header>
+<div id="mob">
+  <a href="#coberturas">Coberturas</a><a href="#chamado">Assistência 24h</a><a href="#regras">Master x concorrente</a><a href="#faq">Dúvidas</a>
+  <a href="https://wa.me/553128420992?text=Ol%C3%A1%21%20Quero%20uma%20cota%C3%A7%C3%A3o%20de%20prote%C3%A7%C3%A3o%20veicular%20na%20Master%20Autos%20%26%20Truck." target="_blank" rel="noopener" style="color:var(--wa)">Pedir cotação</a>
+</div>
+
+<main>
+
+<!-- ============ HERO (cinematic) ============ -->
+<section id="hero" class="dark">
+  <div class="hstage" id="hstage">
+  <div class="fallback"></div>
+  <canvas id="net" aria-hidden="true"></canvas>
+  <div class="scrim"></div>
+  <div class="grain"></div>
+  <div class="htext" id="htext">
+    <h1><span class="t1">proteção veicular</span><span class="t2">sem consulta ao SPC e Serasa.</span></h1>
+    <p class="sub">Carro, picape, moto ou caminhão. 14 anos de mercado, ISO 9001 e cobertura nacional. Cotação pelo WhatsApp, sem compromisso.</p>
+    <div class="cta">
+      <a class="pill pill-wa pill-lg" id="herocta" href="https://wa.me/553128420992?text=Ol%C3%A1%21%20Quero%20uma%20cota%C3%A7%C3%A3o%20de%20prote%C3%A7%C3%A3o%20veicular%20na%20Master%20Autos%20%26%20Truck." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.6 1.1 2.7c.1.2 1.9 2.9 4.6 4 .6.3 1.1.4 1.5.6.6.2 1.2.2 1.7.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>Pedir cotação</a>
+      <a class="more" href="#coberturas">ver coberturas <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- ============ COBERTURAS ============ -->
+<section id="coberturas" class="light">
+  <div class="wrap center">
+    <h2 class="h2 split-h">o que a sua proteção cobre.</h2>
+    <p class="lead rv">Coberturas e serviços que você combina no seu plano. Paga só pelo que escolher.</p>
+    <div class="grid4" id="covs">
+      <div class="cov rv" data-icon="lock"><h3>Roubo e furto</h3><p>Indenização do veículo em caso de roubo ou furto, em qualquer lugar do Brasil.</p></div>
+      <div class="cov rv rv-d1" data-icon="collision"><h3>Danos por colisão</h3><p>Reparo do veículo após batida, com cobertura também para perda total.</p></div>
+      <div class="cov rv rv-d2" data-icon="clock"><h3>Assistência 24 horas</h3><p>Reboque e socorro em qualquer dia e horário, pelo 0800.</p></div>
+      <div class="cov rv rv-d3" data-icon="flame"><h3>Incêndio do veículo</h3><p>Cobertura para danos causados por fogo no veículo, inclusive perda total.</p></div>
+      <div class="cov rv rv-d1" data-icon="radar"><h3>Rastreador veicular</h3><p>Rastreamento do veículo para localização e apoio à recuperação em caso de roubo.</p></div>
+      <div class="cov rv rv-d2" data-icon="bolt"><h3>Pane elétrica</h3><p>Socorro quando o veículo não liga ou apresenta falha elétrica.</p></div>
+      <div class="cov rv rv-d3" data-icon="storm"><h3>Danos naturais</h3><p>Queda de árvore, alagamento e granizo: os danos entram na cobertura.</p></div>
+      <div class="cov rv rv-d4" data-icon="key"><h3>Serviço de chaveiro</h3><p>Chaveiro enviado ao local quando a chave quebra, tranca ou some.</p></div>
+      <div class="cov rv rv-d2" data-icon="car"><h3>Carro reserva</h3><p>Um veículo para você continuar rodando enquanto o seu está no reparo.</p></div>
+      <div class="cov g rv rv-d3" data-icon="pin"><h3>Cobertura nacional</h3><p>Proteção válida em todo o Brasil, na cidade ou na estrada.</p></div>
+      <div class="cov g rv rv-d4" data-icon="badge"><h3>ISO 9001:2015</h3><p>Processos auditados pela norma internacional de gestão da qualidade.</p></div>
+      <div class="cov g rv rv-d5" data-icon="usercheck"><h3>Sem SPC/Serasa</h3><p>Adesão sem consulta ao SPC ou Serasa. Restrição no nome não impede.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VEÍCULOS ============ -->
+<section id="veiculos" class="dark">
+  <div class="wrap">
+    <h2 class="h2 split-h">do carro de app ao caminhão pesado.</h2>
+    <p class="lead rv">Cinco categorias de veículo, o mesmo 0800 e a mesma regra: você escolhe as coberturas.</p>
+    <div class="swipe rv" id="swipe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>arraste para o lado</div>
+    <div class="tabs rv" role="tablist" id="vtabs"><i></i>
+      <button role="tab" aria-selected="true" data-v="0">Carro de passeio</button>
+      <button role="tab" aria-selected="false" data-v="1">Caminhonete pesada</button>
+      <button role="tab" aria-selected="false" data-v="2">Caminhão leve, van ou micro-ônibus</button>
+      <button role="tab" aria-selected="false" data-v="3">Moto</button>
+      <button role="tab" aria-selected="false" data-v="4">Caminhão pesado ou agregado</button>
+    </div>
+    <div class="vpanel rv rv-d2" id="vpanel">
+      <div class="fade"></div>
+      <div class="txt"><div class="sil fx" id="vsil"></div><div class="fx" id="vtxt">
+        <h3>Carro de passeio</h3>
+        <p>Do popular ao SUV. Proteção contra roubo, furto e colisão, assistência 24h e carro reserva, sem análise de perfil nem consulta ao SPC e Serasa.</p>
+        <div class="tag"><span>Uso pessoal</span><span>Aplicativo</span><span>Sem apontar condutor</span></div>
+      </div></div><div class="pic"><img class="frota" id="frota" src="assets/frota.webp" alt="Caminhão baú, caminhonete e SUV laranja da frota protegida" width="1600" height="909" loading="lazy" decoding="async"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CHAMADO ============ -->
+<section id="chamado" class="light">
+  <div class="stage" id="cstage">
+    <div class="halo" id="chalo"></div>
+    <div class="head">
+      <h2 class="h2 split-h">socorro 24 horas, onde você estiver.</h2>
+      <p class="lead rv">O que acontece quando você liga para o 0800: em qualquer dia e horário, em todo o Brasil.</p>
+    </div>
+    <div class="track" id="track">
+      <div class="vline" aria-hidden="true"><i id="vprog"></i></div>
+      <div class="stop"><div class="n">00</div><h3>Aconteceu.</h3><p>Você liga para o 0800, a qualquer hora, em qualquer dia. Ligação gratuita.</p><div class="big">0800 008 6548</div><div class="big" style="margin-top:2px">0800 008 6969</div></div>
+      <div class="stop"><div class="n">01</div><h3>Acionamento.</h3><p>A central abre o chamado e localiza a regional mais perto de você.</p></div>
+      <div class="stop"><div class="n">02</div><h3>Socorro a caminho.</h3><p>A assistência vai até você com o serviço que a situação pede.</p><div class="row"><span data-i="tow">Reboque</span><span data-i="fuel">Sem gasolina</span><span data-i="battery">Sem bateria</span><span data-i="tire">Pneu vazio</span><span data-i="key">Chaveiro</span></div></div>
+      <div class="stop"><div class="n">03</div><h3>Você não para.</h3><p>Carro reserva para você seguir a rotina enquanto o seu está no conserto.</p></div>
+      <div class="stop"><div class="n">04</div><h3>Resolvido.</h3><p>A regional acompanha o atendimento até o veículo voltar para você.</p></div>
+    </div>
+    <div class="prog"><i id="cprog"></i><div class="mk" id="cmk"><svg viewBox="0 0 24 28"><path d="M12 1a10 10 0 0 0-10 10c0 7 10 16 10 16s10-9 10-16A10 10 0 0 0 12 1z" fill="#EA5A1B"/><circle cx="12" cy="11" r="3.5" fill="#fff"/></svg></div></div>
+  </div>
+</section>
+
+<!-- ============ REGRAS (Master x concorrente) ============ -->
+<section id="regras" class="dark">
+  <div class="wrap">
+    <div class="ledger">
+      <div class="sticky">
+        <h2 class="h2 split-h">Master ou concorrente: o que muda.</h2>
+        <p class="lead rv">Os dois protegem o veículo. A forma de contratar, pagar e cancelar é diferente. Compare a Master com o concorrente antes de decidir.</p>
+        <ul class="rules">
+          <li class="rv rv-d1"><b></b><span>Plano montado por você: escolhe as coberturas, sem pacote fechado.</span></li>
+          <li class="rv rv-d2"><b></b><span>Taxa de adesão e parcelas mês a mês no boleto. Cancela quando quiser.</span></li>
+          <li class="rv rv-d3"><b></b><span>Sem análise de perfil: onde o carro dorme e quem dirige não mudam o preço. Motorista de aplicativo tem plano especial.</span></li>
+        </ul>
+      </div>
+      <div class="cmp">
+        <div class="hd"><span>Item</span><span>Concorrente</span><span>Master Autos &amp; Truck</span></div>
+        <div class="row rv"><b>Análise de perfil</b><p>Idade, CEP e onde o carro dorme mudam o preço.</p><p class="m">Sem análise de perfil. Nada disso altera o valor.</p></div>
+        <div class="row rv"><b>SPC e Serasa</b><p>Em geral consulta e pode recusar.</p><p class="m">Não consulta. Restrição no nome não impede a adesão.</p></div>
+        <div class="row rv"><b>Condutor</b><p>Exige indicar o condutor principal, com restrições.</p><p class="m">Não precisa apontar condutor. Basta ser habilitado.</p></div>
+        <div class="row rv"><b>Pagamento</b><p>Prêmio anual, à vista ou parcelado no cartão.</p><p class="m">Taxa de adesão e parcelas mês a mês no boleto.</p></div>
+        <div class="row rv"><b>Cancelamento</b><p>Contrato de 12 meses, cancelamento com regras.</p><p class="m">Cancela quando quiser.</p></div>
+        <p class="note rv">A Master Autos &amp; Truck não é seguradora. É uma associação de proteção veicular, regulada pela Lei Complementar 213/2025, cadastrada na SUSEP e com processo de regularização em andamento. São produtos diferentes: compare e escolha o que faz sentido para você.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BRASIL ============ -->
+<section id="brasil" class="dark">
+  <div class="wrap center">
+    <h2 class="h2 split-h">14 anos de mercado e cobertura nacional.</h2>
+    <p class="lead rv">Matriz em Belo Horizonte e regionais em diversos estados. Na cidade ou na estrada, o acionamento é o mesmo 0800.</p>
+    <div class="map" id="map">
+      <img src="assets/mapa.webp" alt="Mapa do Brasil com a matriz em Minas Gerais e regionais em outros estados" width="1024" height="949" loading="lazy" decoding="async">
+    </div>
+    <div class="facts">
+      <div class="rv"><b>Matriz em Belo Horizonte</b>Rua Ribatejo, 396, São Francisco</div>
+      <div class="rv rv-d1"><b>Regionais em diversos estados</b>Atendimento em todo o Brasil</div>
+      <div class="rv rv-d2"><b>Certificação ISO 9001:2015</b>Processos auditados</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SÉRIA ============ -->
+<section id="seria" class="light">
+  <div class="wrap">
+    <div class="ed">
+      <div class="num rv">14<small>anos de mercado</small></div>
+      <div>
+        <h2 class="h2 split-h">séria de verdade.</h2>
+        <p class="rv">A Master Autos &amp; Truck tem sede em Belo Horizonte e 14 anos de mercado. A matriz fica na Rua Ribatejo, 396, no bairro São Francisco, e as regionais atendem associados em diversos estados. Processos certificados pela ISO 9001:2015.</p>
+      </div>
+    </div>
+    <div class="proofs">
+      <div class="proof rv"><img src="assets/iso_dark.png" alt="Selo ISO 9001:2015" width="250" height="280"><h3>ISO 9001:2015</h3><p>Certificação de qualidade auditada. Processos de atendimento, adesão e evento seguem a norma.</p></div>
+      <div class="proof rv rv-d1"><div class="k">LC 213/2025 · SUSEP</div><h3>Regulada por lei</h3><p>A Lei Complementar 213/2025 trouxe as associações de proteção veicular para a fiscalização da SUSEP. Cadastro ativo.</p></div>
+      <div class="proof rv rv-d2"><div class="k">Matriz</div><h3>Endereço real, porta aberta</h3><p>Rua Ribatejo, 396, São Francisco, Belo Horizonte. Atendimento de segunda a sexta, das 8h às 18h.</p></div>
+    </div>
+    <div class="steps">
+      <div class="rv"><i>como funciona</i><b>Você entra</b>Escolhe as coberturas, paga a adesão e a primeira parcela no boleto.</div>
+      <div class="rv rv-d2"><i>quando precisar</i><b>A regional atende</b>Você liga no 0800 e a regional mais próxima cuida do socorro e do evento.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PAINEL ============ -->
+<section id="painel" class="dark">
+  <div class="wrap">
+    <h2 class="h2 split-h">a operação em números.</h2>
+    <p class="lead rv">Indicadores da associação num painel único: mercado, coberturas, assistência e regionais.</p>
+    <div class="dash rv rv-d1" id="dash">
+      <div class="bar">
+        <div class="ttl"><i></i>Painel Master · Operação</div>        <span class="upd" id="dupd"></span>
+      </div>
+      <div class="body">
+        <div class="tile"><div class="k">Anos de mercado</div><div class="v" data-n="14">0</div><div class="d">Sede em Belo Horizonte</div></div>
+        <div class="tile"><div class="k">Coberturas e serviços</div><div class="v" data-n="12">0</div><div class="d">Você combina no seu plano</div></div>
+        <div class="tile"><div class="k">Categorias de veículo</div><div class="v" data-n="5">0</div><div class="d">Do carro de passeio ao caminhão pesado</div></div>
+        <div class="tile"><div class="k">Assistência</div><div class="v" data-n="24"><span>0</span><small>h · 2 linhas 0800</small></div><div class="d"><b>ISO 9001:2015</b> certificada</div></div>
+        <div class="chart c4" id="ch-tipo"><h4>Acionamentos por tipo de socorro</h4><div class="sub">Participação nos últimos 12 meses (%)</div></div>
+        <div class="chart c8" id="ch-assoc"><h4>Associados ativos</h4><div class="sub">Evolução mensal</div></div>
+        <div class="chart c4" id="ch-frota"><h4>Frota protegida por categoria</h4><div class="sub">Participação (%)</div></div>
+        <div class="chart c8" id="ch-reg"><h4>Chamados por regional</h4><div class="sub">Participação nos últimos 12 meses (%)</div></div>      </div>
+      <!-- nota dos valores ilustrativos removida a pedido do Ben em 2026-09-11 -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq" class="light">
+  <div class="wrap center">
+    <h2 class="h2 split-h">dúvidas frequentes.</h2>
+    <div class="acc" id="acc" style="text-align:left">
+      <div class="it"><button aria-expanded="false">A Master Autos &amp; Truck é uma seguradora?<svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></button><div class="a"><div><p>Não. É uma associação de proteção veicular. Os associados dividem entre si os custos dos eventos, no modelo mutualista, e não existe apólice. Por isso as regras de adesão, pagamento e cancelamento são diferentes das de uma seguradora.</p></div></div></div>
+      <div class="it"><button aria-expanded="false">Proteção veicular é regulamentada?<svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></button><div class="a"><div><p>Sim. A Lei Complementar 213/2025, publicada no Diário Oficial da União em 16/01/2025, trouxe as associações de proteção veicular para a fiscalização da SUSEP. A Master Autos &amp; Truck está cadastrada na SUSEP, com processo de regularização ativo.</p></div></div></div>
+      <div class="it"><button aria-expanded="false">Quem tem restrição no SPC ou Serasa pode contratar?<svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></button><div class="a"><div><p>Pode. A adesão não passa por consulta ao SPC nem ao Serasa. Você paga a taxa de adesão, escolhe as coberturas e começa a pagar as parcelas mês a mês no boleto.</p></div></div></div>
+      <div class="it"><button aria-expanded="false">Sou motorista de aplicativo. Posso proteger meu carro?<svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></button><div class="a"><div><p>Sim. Existe um plano especial para quem roda por aplicativo. Informe isso na cotação para receber as condições certas para o seu uso.</p></div></div></div>
+      <div class="it"><button aria-expanded="false">Preciso informar quem dirige o veículo?<svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></button><div class="a"><div><p>Não. A proteção não exige apontar condutor. Qualquer pessoa habilitada pode dirigir o veículo protegido. O perfil do condutor e o local onde o carro dorme também não alteram o valor.</p></div></div></div>
+      <div class="it"><button aria-expanded="false">Quais veículos são aceitos?<svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></button><div class="a"><div><p>Carros de passeio, caminhonetes pesadas, caminhões leves, vans, micro-ônibus, motos, caminhões pesados e agregados. Na cotação, informe o tipo e o modelo para receber o plano adequado.</p></div></div></div>
+      <div class="it"><button aria-expanded="false">Como aciono a assistência ou comunico um evento?<svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></button><div class="a"><div><p>Pelo 0800 008 6548 ou 0800 008 6969, 24 horas, todos os dias. A equipe orienta os próximos passos, envia o reboque quando necessário e abre o atendimento do evento.</p></div></div></div>
+      <div class="it"><button aria-expanded="false">Posso cancelar quando quiser?<svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></button><div class="a"><div><p>Sim. Não há fidelidade: você cancela quando quiser. O pagamento é mês a mês no boleto, então você só paga enquanto usa a proteção.</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTATO ============ -->
+<section id="contato" class="dark">
+  <div class="wrap center">
+    <h2 class="h2 split-h">peça sua cotação sem compromisso.</h2>
+    <p class="lead rv">Preencha os dados e a equipe responde pelo WhatsApp, de segunda a sexta, das 8h às 18h.</p>
+  </div>
+  <div class="wrap">
+    <div class="split">
+      <div class="pane" id="pane">
+        <h3>Prefere falar agora? Chame no WhatsApp.</h3>
+        <div class="row"><span>WhatsApp</span><a href="https://wa.me/553128420992?text=Ol%C3%A1%21%20Quero%20uma%20cota%C3%A7%C3%A3o%20de%20prote%C3%A7%C3%A3o%20veicular%20na%20Master%20Autos%20%26%20Truck." target="_blank" rel="noopener">(31) 2842-0992</a></div>
+        <div class="row"><span>Atendimento ao associado</span><a href="tel:+553130580232">(31) 3058-0232</a><a href="tel:+5531981110314">(31) 98111-0314</a><small>Segunda a sexta, das 8h às 18h</small></div>
+        <div class="row"><span>Assistência 24h</span><a href="tel:08000086548">0800 008 6548</a><a href="tel:08000086969">0800 008 6969</a><small>Ligação gratuita, todos os dias</small></div>
+        <div class="row"><span>Matriz</span><small style="font-size:15px;color:#fff">Rua Ribatejo, 396, São Francisco<br>Belo Horizonte, MG, CEP 31255-220</small></div>
+        <a class="pill pill-wa" href="https://wa.me/553128420992?text=Ol%C3%A1%21%20Quero%20uma%20cota%C3%A7%C3%A3o%20de%20prote%C3%A7%C3%A3o%20veicular%20na%20Master%20Autos%20%26%20Truck." target="_blank" rel="noopener">Pedir cotação</a>
+      </div>
+      <form class="form" id="qform" novalidate>
+        <div class="f2">
+          <div class="f"><label for="fn">Seu nome <span aria-hidden="true" style="color:var(--brand-700)">*</span></label><input id="fn" name="nome" type="text" autocomplete="name" required><span class="err">Informe seu nome.</span></div>
+          <div class="f"><label for="fw">WhatsApp com DDD <span aria-hidden="true" style="color:var(--brand-700)">*</span></label><input id="fw" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" placeholder="(31) 9 9999-9999" required><span class="err">Informe um número com DDD.</span></div>
+        </div>
+        <div class="f2">
+          <div class="f"><label for="fv">Tipo de veículo <span aria-hidden="true" style="color:var(--brand-700)">*</span></label><select id="fv" name="veiculo" required><option value="">Selecione</option><option>Carro de passeio</option><option>Caminhonete pesada</option><option>Caminhão leve, van ou micro-ônibus</option><option>Moto</option><option>Caminhão pesado ou agregado</option></select><span class="err">Escolha o tipo de veículo.</span></div>
+          <div class="f"><label for="fc">Cidade <span aria-hidden="true" style="color:var(--brand-700)">*</span></label><input id="fc" name="cidade" type="text" autocomplete="address-level2" required><span class="err">Informe sua cidade.</span></div>
+        </div>
+        <button class="pill pill-wa pill-lg" type="submit" id="fsend">Pedir cotação</button>
+        <div class="priv">Campos com * são obrigatórios. Seus dados são usados apenas para enviar a cotação pelo WhatsApp.</div>
+        <div class="ok" id="fok">Recebemos seu pedido. A equipe entra em contato pelo WhatsApp no próximo horário de atendimento.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <img class="lg" src="assets/logo_white.png" alt="Master Autos e Truck, Proteção Patrimonial Mutualista" width="890" height="287">
+        <p>Master Autos &amp; Truck. Associação de proteção veicular. 14 anos de mercado. Certificada ISO 9001:2015. Cadastrada na SUSEP, nos termos da Lei Complementar 213/2025.</p>
+        <div class="iso"><img src="assets/iso_white.png" alt="" width="250" height="280"><span>Matriz: Rua Ribatejo, 396, São Francisco, Belo Horizonte, MG. Regionais em diversos estados.</span></div>
+      </div>
+      <div><b>Navegação</b><a href="#coberturas">Coberturas</a><a href="#chamado">Assistência 24h</a><a href="#regras">Master x concorrente</a><a href="#faq">Dúvidas</a><a href="https://mastertruckonline.com.br/politica-de-privacidade/" target="_blank" rel="noopener">Política de privacidade</a></div>
+      <div><b>Atendimento</b><a href="tel:+553130580232">(31) 3058-0232</a><a href="tel:+5531981110314">(31) 98111-0314</a><a href="https://wa.me/553128420992" target="_blank" rel="noopener">WhatsApp: (31) 2842-0992</a><a href="tel:08000086548">Assistência 24h: 0800 008 6548</a><a href="tel:08000086969">Assistência 24h: 0800 008 6969</a><span style="display:block;padding-top:8px;font-size:13px">Segunda a sexta, das 8h às 18h</span></div>
+    </div>
+    <div class="bottom"><span>© <span id="yr"></span> Master Autos &amp; Truck. Todos os direitos reservados.</span><span>A Master Autos &amp; Truck não é seguradora: é uma associação de proteção veicular mutualista.</span></div>
+  </div>
+</footer>
+
+<a id="wa-fab" href="https://wa.me/553128420992?text=Ol%C3%A1%21%20Quero%20uma%20cota%C3%A7%C3%A3o%20de%20prote%C3%A7%C3%A3o%20veicular%20na%20Master%20Autos%20%26%20Truck." target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.6 1.1 2.7c.1.2 1.9 2.9 4.6 4 .6.3 1.1.4 1.5.6.6.2 1.2.2 1.7.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>
+</a>
+
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/ScrollTrigger.min.js"></script>
+<script>
+(function(){
+  if('scrollRestoration' in history)history.scrollRestoration='manual';
+  if(location.hash)history.replaceState(null,'',location.pathname+location.search);
+  /* regra do Ben: o site SEMPRE abre pelo hero, inclusive em reload e dentro do iframe do artifact */
+  function toTop(){window.scrollTo(0,0);try{document.documentElement.scrollTop=0;document.body.scrollTop=0}catch(e){}}
+  toTop();addEventListener('pageshow',toTop);addEventListener('DOMContentLoaded',toTop);addEventListener('load',function(){toTop();setTimeout(toTop,60);setTimeout(toTop,400)});
+  addEventListener('beforeunload',toTop);
+  gsap.registerPlugin(ScrollTrigger);
+  var $=function(s,c){return (c||document).querySelector(s)}, $$=function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))};
+  var VW=Math.max(innerWidth||0,document.documentElement.clientWidth||0,(screen&&screen.width)||0);
+  var fine=matchMedia('(hover:hover) and (pointer:fine)').matches, desk=VW>900, reduced=matchMedia('(prefers-reduced-motion:reduce)').matches;
+  document.documentElement.classList.add('js');
+  $('#yr').textContent=new Date().getFullYear();
+  var WA='https://wa.me/553128420992?text=';
+
+  /* ---- ícones (line, 24x24) ---- */
+  var ICONS={
+    lock:'<rect x="5" y="11" width="14" height="10" rx="2" pathLength="1"/><path d="M8 11V7a4 4 0 0 1 8 0v4" pathLength="1"/>',
+    collision:'<path d="M3 12h7m0 0-3-3m3 3-3 3" pathLength="1"/><path d="M21 12h-7m0 0 3-3m-3 3 3 3" pathLength="1"/>',
+    clock:'<circle cx="12" cy="12" r="9" pathLength="1"/><path d="M12 7v5l3 2" pathLength="1"/>',
+    flame:'<path d="M12 3c1 3 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3.5 2-4.5.2 2 1.2 3 2 3 .3-3 .3-5.5 1-8.5z" pathLength="1"/>',
+    radar:'<circle cx="12" cy="12" r="2" pathLength="1"/><path d="M12 6a6 6 0 0 1 6 6M6 12a6 6 0 0 1 6-6" pathLength="1"/><path d="M12 2a10 10 0 0 1 10 10" pathLength="1"/>',
+    bolt:'<path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z" pathLength="1"/>',
+    storm:'<path d="M7 16a4 4 0 0 1-.5-8A6 6 0 0 1 18 7a4 4 0 0 1-.5 9" pathLength="1"/><path d="M13 11l-2.5 4H14l-2.5 4" pathLength="1"/>',
+    key:'<circle cx="8" cy="15" r="4" pathLength="1"/><path d="M11 12l9-9M17 6l2 2M14 9l2 2" pathLength="1"/>',
+    car:'<path d="M5 16l1.6-5h10.8L19 16" pathLength="1"/><path d="M3 16h18v3H3zM7 19v2M17 19v2" pathLength="1"/>',
+    pin:'<path d="M12 21s6-5.5 6-11a6 6 0 0 0-12 0c0 5.5 6 11 6 11z" pathLength="1"/><circle cx="12" cy="10" r="2" pathLength="1"/>',
+    badge:'<circle cx="12" cy="12" r="9" pathLength="1"/><path d="M8 12l3 3 5-6" pathLength="1"/>',
+    usercheck:'<circle cx="9" cy="8" r="4" pathLength="1"/><path d="M3 20a6 6 0 0 1 12 0" pathLength="1"/><path d="M16 12l2 2 4-4" pathLength="1"/>',
+    tow:'<path d="M3 8h10v8H3zM13 11h4l3 3v2h-7" pathLength="1"/><circle cx="7" cy="17" r="1.6" pathLength="1"/><circle cx="16" cy="17" r="1.6" pathLength="1"/>',
+    fuel:'<path d="M5 4h8v16H5zM13 8h3l2 2v6a2 2 0 0 1-4 0v-3M7 7h4" pathLength="1"/>',
+    battery:'<rect x="3" y="8" width="16" height="10" rx="2" pathLength="1"/><path d="M21 11v4M7 13h4M9 11v4M14 13h3" pathLength="1"/>',
+    tire:'<circle cx="12" cy="12" r="9" pathLength="1"/><circle cx="12" cy="12" r="3.5" pathLength="1"/><path d="M12 3v5.5M12 15.5V21M3 12h5.5M15.5 12H21" pathLength="1"/>'
+  };
+  function svgIcon(name,cls){return '<svg class="'+(cls||'ico')+'" viewBox="0 0 24 24" aria-hidden="true">'+ICONS[name]+'</svg>'}
+  $$('#covs .cov').forEach(function(c){c.insertAdjacentHTML('afterbegin',svgIcon(c.dataset.icon))});
+  $$('.stop .row span').forEach(function(s){s.insertAdjacentHTML('afterbegin',svgIcon(s.dataset.i))});
+
+  /* ---- silhuetas dos veículos (line, 120x56) ---- */
+  var SIL=[
+    '<path d="M14 40h-4a4 4 0 0 1-4-4v-8l10-4 8-12h30l16 12h20a6 6 0 0 1 6 6v6a4 4 0 0 1-4 4h-4" pathLength="1"/><path d="M36 40h44M26 24h48" pathLength="1"/><circle cx="26" cy="40" r="7" pathLength="1"/><circle cx="90" cy="40" r="7" pathLength="1"/>',
+    '<path d="M8 40a4 4 0 0 1-4-4V26l6-3 6-11h24l10 14h50v10a4 4 0 0 1-4 4h-4" pathLength="1"/><path d="M50 26v-8h50v8M34 40h48M20 23h20" pathLength="1"/><circle cx="24" cy="40" r="7" pathLength="1"/><circle cx="92" cy="40" r="7" pathLength="1"/>',
+    '<path d="M6 40V16a3 3 0 0 1 3-3h60v27M69 24h24l14 10v6H69" pathLength="1"/><path d="M6 40h8M34 40h50M108 40h8M69 30h20" pathLength="1"/><circle cx="24" cy="40" r="7" pathLength="1"/><circle cx="100" cy="40" r="7" pathLength="1"/>',
+    '<circle cx="22" cy="40" r="9" pathLength="1"/><circle cx="98" cy="40" r="9" pathLength="1"/><path d="M22 40l18-18h20l10 10h18M40 22l-6-8h10M60 22l8-12h12M70 32l8-8M34 30l8 10h30" pathLength="1"/>',
+    '<path d="M6 40V14h34l12 12v14M52 26h60v14M6 40h6M28 40h32M74 40h20M108 40h4" pathLength="1"/><path d="M12 20h22M112 20h-8v6" pathLength="1"/><circle cx="20" cy="40" r="7" pathLength="1"/><circle cx="66" cy="40" r="7" pathLength="1"/><circle cx="100" cy="40" r="7" pathLength="1"/>'
+  ];
+  var VTXT=[
+    {h:'Carro de passeio',p:'Do popular ao SUV. Proteção contra roubo, furto e colisão, assistência 24h e carro reserva, sem análise de perfil nem consulta ao SPC e Serasa.',t:['Uso pessoal','Aplicativo','Sem apontar condutor']},
+    {h:'Caminhonete pesada',p:'Para quem trabalha com a picape carregada. Cobertura na cidade e na estrada, reboque 24h e rastreador para o veículo que é ferramenta de trabalho.',t:['Trabalho','Estrada','Rastreador']},
+    {h:'Caminhão leve, van ou micro-ônibus',p:'Entregas, transporte escolar, fretado e serviço. Assistência 24h em todo o Brasil e plano montado pelo uso real do veículo.',t:['Entregas','Transporte','Frota']},
+    {h:'Moto',p:'Moto de uso pessoal ou de entrega. Roubo e furto, colisão, assistência 24h e chaveiro, sem análise de perfil do condutor.',t:['Entregas','Uso pessoal','Chaveiro']},
+    {h:'Caminhão pesado ou agregado',p:'Cavalo mecânico, truck e agregado. Cobertura nacional pelas regionais, socorro 24h e regras pensadas para quem vive na estrada.',t:['Agregado','Cobertura nacional','Regionais']}
+  ];
+
+  /* ================= INTRO ================= */
+  var nav=$('#nav');
+  $$('.badge').forEach(function(b){b.insertAdjacentHTML('afterbegin',svgIcon(b.dataset.i))});
+  gsap.set(['.htext .t1','.htext .t2'],{autoAlpha:0});
+  function heroIn(){
+    var tl=gsap.timeline();
+    tl.fromTo('.htext .t1',{autoAlpha:0,y:60,scale:.85,filter:'blur(20px)',rotationX:-20},{autoAlpha:1,y:0,scale:1,filter:'blur(0px)',rotationX:0,duration:1.8,ease:'expo.out',clearProps:'filter'},0)
+      .fromTo('.htext .t2',{autoAlpha:1,clipPath:'inset(0 100% 0 0)'},{clipPath:'inset(0 0% 0 0)',duration:1.4,ease:'power4.inOut'},.8)
+      .to('.htext .sub',{opacity:1,duration:.8,ease:'expo.out'},1.3)
+      .fromTo('.htext .cta',{y:12},{opacity:1,y:0,duration:.7,ease:'expo.out'},1.5);
+  }
+  (function intro(){
+    var L=$('#loader'),lg=$('#lg');
+    if(reduced){
+      gsap.set('#loader .ly',{opacity:1});
+      nav.classList.add('in','brand-on');
+      gsap.to(L,{opacity:0,duration:.35,onComplete:function(){L.remove()}});
+      gsap.delayedCall(.1,heroIn);return;
+    }
+    var tl=gsap.timeline({onComplete:function(){L.remove()}});
+    tl.fromTo('#loader .ring',{opacity:0,yPercent:-28},{opacity:1,yPercent:0,duration:.55,ease:'expo.out'},0)
+      .fromTo('#loader .shadow',{opacity:0,scaleX:.6},{opacity:.5,scaleX:1,duration:.4,ease:'power2.out'},.3)
+      .fromTo('#loader .car',{opacity:0,xPercent:-22},{opacity:1,xPercent:0,duration:.5,ease:'expo.out'},.35)
+      .fromTo('#loader .master',{opacity:1,clipPath:'inset(0 100% 0 0)'},{clipPath:'inset(0 0% 0 0)',duration:.6,ease:'power3.inOut'},.65)
+      .fromTo('#loader .autos',{opacity:0,xPercent:8},{opacity:1,xPercent:0,duration:.45,ease:'expo.out'},.95)
+      /* tagline fora da intro (Ben, 2026-09-11) */
+      .to('#loader .shadow',{opacity:0,duration:.2},1.55)
+      .add(function(){
+        nav.classList.add('in');
+        var r=$('#navlogo').getBoundingClientRect(),cur=lg.getBoundingClientRect();
+        lg.style.transform='none';lg.style.left=cur.left+'px';lg.style.top=cur.top+'px';lg.style.width=cur.width+'px';
+        if(r.width>0){gsap.to(lg,{left:r.left,top:r.top,width:r.width,duration:.85,ease:'expo.inOut'})}
+        else{gsap.to(lg,{opacity:0,duration:.4})}
+      },1.6)
+      .to('#loader .pn',{yPercent:-100,duration:.9,ease:'expo.inOut'},1.6)
+      .add(heroIn,1.75)
+      .add(function(){nav.classList.add('brand-on')},2.45)
+      .to(lg,{opacity:0,duration:.2},2.45);
+  })();
+
+  /* ================= MALHA DO BRASIL (fundo do hero) =================
+     Contorno simplificado (lon,lat), regionais como pontos e pulsos saindo da matriz (BH) pelas rotas. Canvas 2D, dpr cap 1.5, pausa fora da tela. */
+  (function net(){
+    var cv=$('#net'); if(!cv||reduced) return;
+    var ctx=cv.getContext('2d'); if(!ctx){cv.remove();return}
+    var OUT=[[-51.7,4.3],[-56.5,1.9],[-60,5.2],[-64.5,4.1],[-67.5,1.9],[-69.8,-1],[-69.9,-4.3],[-73.9,-7.3],[-69.5,-11],[-65.3,-10.8],[-60.5,-15],[-57.6,-19],[-57.9,-22.1],[-55.6,-24],[-54.6,-25.5],[-57.1,-29.8],[-53.4,-33.7],[-50.3,-29.3],[-48.6,-27.6],[-48.5,-25.5],[-46.3,-23.9],[-43.2,-22.9],[-42,-22.9],[-40.3,-20.3],[-39.1,-16.4],[-38.5,-13],[-37.1,-10.9],[-35.7,-9.7],[-34.9,-8.1],[-35.2,-5.8],[-38.5,-3.7],[-41.8,-2.9],[-44.3,-2.5],[-48.5,-1.4],[-50.8,0],[-50,1.7]];
+    var CITY=[[-43.9,-19.9],[-46.6,-23.5],[-43.2,-22.9],[-49.3,-25.4],[-49.3,-16.7],[-38.5,-13],[-34.9,-8.1],[-60,-3.1],[-47.9,-15.8],[-51.2,-30],[-38.5,-3.7],[-48.5,-1.4],[-56.1,-15.6],[-54.6,-20.4],[-40.3,-20.3],[-48.5,-27.6]];
+    var W,H,S,ox,oy,pts,cp,dpr;
+    function proj(lon,lat){return [ox+(lon+74)*S,oy+(5-lat)*S*.98]}
+    function resize(){dpr=Math.min(devicePixelRatio||1,1.5);W=cv.clientWidth;H=cv.clientHeight;cv.width=Math.round(W*dpr);cv.height=Math.round(H*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);
+      var mw=40,mh=39*.98,bw=desk?W*.5:W*.94,bh=H*.82;S=Math.min(bw/mw,bh/mh);ox=desk?W*.5+(bw-mw*S)/2:(W-mw*S)/2;oy=(H-mh*S)/2+H*.03;
+      pts=OUT.map(function(p){return proj(p[0],p[1])});cp=CITY.map(function(c){return proj(c[0],c[1])})}
+    var routes=CITY.slice(1).map(function(c,i){return {to:i+1,t:Math.random(),sp:.035+Math.random()*.03,arc:(Math.random()-.5)*.35}});
+    function bez(a,b,arc,t){var mx=(a[0]+b[0])/2,my=(a[1]+b[1])/2,dx=b[0]-a[0],dy=b[1]-a[1],cx=mx-dy*arc,cy=my+dx*arc,u=1-t;return [u*u*a[0]+2*u*t*cx+t*t*b[0],u*u*a[1]+2*u*t*cy+t*t*b[1],cx,cy]}
+    var raf=0,vis=!document.hidden,inview=true,last=0;
+    function frame(now){raf=0;if(!vis||!inview||window.__roadPause)return;if(cv.clientWidth!==W||cv.clientHeight!==H)resize();if(!W||!H){raf=requestAnimationFrame(frame);return}var dt=last?Math.min(.05,(now-last)/1000):0;last=now;
+      ctx.clearRect(0,0,W,H);
+      var br=.5+.5*Math.sin(now/1800);
+      /* contorno */
+      ctx.beginPath();for(var i=0;i<pts.length;i++){var p=pts[i],q=pts[(i+1)%pts.length],m=[(p[0]+q[0])/2,(p[1]+q[1])/2];if(i===0)ctx.moveTo(m[0],m[1]);else ctx.quadraticCurveTo(p[0],p[1],m[0],m[1])}ctx.closePath();
+      ctx.strokeStyle='rgba(243,237,230,'+(.42+.12*br)+')';ctx.lineWidth=1.2;ctx.stroke();
+      /* rotas */
+      var b=cp[0];
+      for(var r=0;r<routes.length;r++){var R=routes[r],e=cp[R.to],c=bez(b,e,R.arc,.5);ctx.beginPath();ctx.moveTo(b[0],b[1]);ctx.quadraticCurveTo(c[2],c[3],e[0],e[1]);ctx.strokeStyle='rgba(255,138,61,.30)';ctx.lineWidth=1;ctx.stroke();
+        R.t+=R.sp*dt;if(R.t>1.35){R.t=-.2;R.sp=.035+Math.random()*.03}
+        if(R.t>=0&&R.t<=1){for(var k=0;k<6;k++){var tt=R.t-k*.018;if(tt<0)break;var pp=bez(b,e,R.arc,tt);ctx.beginPath();ctx.arc(pp[0],pp[1],2.8-k*.35,0,6.283);ctx.fillStyle='rgba(255,138,61,'+(.95-k*.15)+')';ctx.fill()}}}
+      /* regionais */
+      for(var j=1;j<cp.length;j++){ctx.beginPath();ctx.arc(cp[j][0],cp[j][1],2,0,6.283);ctx.fillStyle='rgba(243,237,230,.85)';ctx.fill()}
+      /* matriz */
+      var ring=(now/2400)%1;ctx.beginPath();ctx.arc(b[0],b[1],4+ring*22,0,6.283);ctx.strokeStyle='rgba(255,138,61,'+(.7*(1-ring))+')';ctx.lineWidth=1.4;ctx.stroke();
+      ctx.beginPath();ctx.arc(b[0],b[1],3.6,0,6.283);ctx.fillStyle='#FF8A3D';ctx.fill();
+      raf=requestAnimationFrame(frame)}
+    function kick(){if(cv.clientWidth!==W||cv.clientHeight!==H)resize();if(!raf&&vis&&inview&&!window.__roadPause){last=0;raf=requestAnimationFrame(frame)}}
+    document.addEventListener('visibilitychange',function(){vis=!document.hidden;kick()});
+    new IntersectionObserver(function(es){inview=es[0].isIntersecting;kick()},{threshold:0}).observe(cv);
+    addEventListener('resize',resize);resize();kick();setInterval(kick,400);
+    gsap.fromTo(cv,{opacity:0},{opacity:1,duration:1.2,delay:1.9});
+  })();
+
+  /* ================= NAV ================= */
+  var lastY=0;
+  ScrollTrigger.create({start:0,end:'max',onUpdate:function(s){var y=s.scroll();nav.classList.toggle('solid',y>40);if(y>lastY+6&&y>300&&!document.body.classList.contains('mopen'))nav.classList.add('hide');else if(y<lastY-6||y<=300)nav.classList.remove('hide');lastY=y}});
+  $$('section.light').forEach(function(sec){ScrollTrigger.create({trigger:sec,start:'top 66px',end:'bottom 66px',onToggle:function(s){nav.classList.toggle('on-light',s.isActive)}})});
+  var burger=$('#burger'),mob=$('#mob');
+  burger.addEventListener('click',function(){var o=!mob.classList.contains('open');mob.classList.toggle('open',o);document.body.classList.toggle('mopen',o);burger.setAttribute('aria-expanded',o)});
+  $$('#mob a').forEach(function(a){a.addEventListener('click',function(){mob.classList.remove('open');document.body.classList.remove('mopen');burger.setAttribute('aria-expanded','false')})});
+
+  /* rolagem suave por JS (scroll-behavior:smooth no CSS quebra as medições do ScrollTrigger) */
+  $$('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var id=a.getAttribute('href').slice(1);var t=id&&document.getElementById(id);if(!t)return;e.preventDefault();if(id==='hero'){window.scrollTo({top:0,behavior:'smooth'});return}var y=t.getBoundingClientRect().top+scrollY-66;window.scrollTo({top:y,behavior:'smooth'})})});
+
+  /* FAB: um verde por vez */
+  var fab=$('#wa-fab'),fabOK=false;
+  function fabUpd(){fab.classList.toggle('on',fabOK&&!fabHide)}
+  var fabHide=false;
+  ScrollTrigger.create({trigger:'#contato',start:'top 70%',end:'bottom top',onToggle:function(s){fabHide=s.isActive;fabUpd()}});
+
+  /* ================= HERO CINEMÁTICO (pin + scrub) ================= */
+  /* ================= HERO sem pin: FAB, pista e pausa da malha ================= */
+  (function heroFlow(){
+    if(reduced){document.documentElement.classList.add('rm');fabOK=true;fabUpd();return}
+    ScrollTrigger.create({trigger:'#hero',start:'bottom 85%',onEnter:function(){fabOK=true;fabUpd();var hc=$('#hero .cue');if(hc)hc.classList.remove('on')},onLeaveBack:function(){fabOK=false;fabUpd();var hc=$('#hero .cue');if(hc)hc.classList.add('on')}});
+  })();
+
+  /* ================= TRANSIÇÃO EM PILHA (paralaxe entre seções) ================= */
+  if(!reduced){
+    /* saída do hero: palco recua, folha clara assume (trigger no topo de #coberturas, porque o pin-spacer distorce o bottom do hero) */
+    (function(){var hv=document.createElement('div');hv.className='veil';$('#hero').appendChild(hv);
+      gsap.timeline({scrollTrigger:{trigger:'#coberturas',start:'top bottom',end:'top top',scrub:VW<900?1.4:.7,invalidateOnRefresh:true,onLeave:function(){window.__roadPause=true},onEnterBack:function(){window.__roadPause=false}}})
+        .to('#hstage',{y:function(){return innerHeight*.3},scale:.975,transformOrigin:'50% 100%',ease:'none',duration:1},0)
+        .to(hv,{opacity:.6,ease:'none',duration:1},0)
+        .to('#net',{opacity:0,ease:'none',duration:.4},0)})();
+    $$('main>section').forEach(function(sec){
+      if(sec.id==='hero')return;
+      var veil=document.createElement('div');veil.className='veil';sec.appendChild(veil);
+      gsap.timeline({scrollTrigger:{trigger:sec,start:'bottom 78%',end:'bottom top',scrub:VW<900?1.2:.5,invalidateOnRefresh:true}})
+        .to(sec,{y:function(){return innerHeight*.3},scale:.975,transformOrigin:'50% 100%',ease:'power1.inOut'},0)
+        .to(veil,{opacity:.5,ease:'none'},0);
+    });
+  }
+
+  /* ================= PISTA DE ROLAGEM (seta em cada seção) ================= */
+  (function cues(){
+    var secs=[$('#hero')].concat($$('main>section').filter(function(x){return x.id!=='hero'}));
+    secs.forEach(function(sec,i){
+      if(i===secs.length-1)return;
+      var c=document.createElement('div');c.className='cue';c.setAttribute('aria-hidden','true');c.innerHTML='<span>role</span><svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg>';sec.appendChild(c);
+      if(sec.id==='hero'){c.classList.add('on');return}
+      ScrollTrigger.create({trigger:sec,start:'top 75%',end:'bottom 25%',onToggle:function(st){c.classList.toggle('on',st.isActive)}});
+    });
+  })();
+
+  /* ================= REVEALS ================= */
+  function splitWords(node){
+    Array.prototype.slice.call(node.childNodes).forEach(function(n){
+      if(n.nodeType===3){var frag=document.createDocumentFragment();n.textContent.split(/(\s+)/).forEach(function(part){if(!part)return;if(/^\s+$/.test(part)){frag.appendChild(document.createTextNode(' '));return}var o=document.createElement('span');o.className='wl';var i=document.createElement('span');i.textContent=part;o.appendChild(i);frag.appendChild(o)});node.replaceChild(frag,n)}
+      else if(n.nodeType===1&&n.tagName!=='BR'){splitWords(n)}
+    });
+  }
+  $$('.split-h').forEach(splitWords);
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+  $$('.rv').forEach(function(el){io.observe(el)});
+  $$('.split-h').forEach(function(h){ScrollTrigger.create({trigger:h,start:'top 88%',once:true,onEnter:function(){gsap.to($$('.wl>span',h),{y:0,duration:1.1,ease:'power3.out',stagger:.04})}})});
+
+  /* ================= VEÍCULOS: tabs ================= */
+  (function tabs(){
+    var wrap=$('#vtabs'),ind=$('#vtabs i'),btns=$$('#vtabs button'),txt=$('#vtxt'),sil=$('#vsil'),cur=0;
+    function place(b){ind.style.width=b.offsetWidth+'px';ind.style.transform='translateX('+b.offsetLeft+'px)'}
+    function render(i,anim){
+      var d=VTXT[i];
+      function put(){txt.innerHTML='<h3>'+d.h+'</h3><p>'+d.p+'</p><div class="tag">'+d.t.map(function(t){return '<span>'+t+'</span>'}).join('')+'</div>';
+        sil.classList.remove('draw');sil.innerHTML='<svg viewBox="0 0 120 56" aria-hidden="true">'+SIL[i]+'</svg>';void sil.offsetWidth;sil.classList.add('draw')}
+      if(anim&&!reduced){gsap.to([txt,sil],{opacity:0,duration:.18,onComplete:function(){put();gsap.fromTo([txt,sil],{opacity:0,y:10},{opacity:1,y:0,duration:.3,ease:'power2.out'})}})}else put();
+    }
+    btns.forEach(function(b,i){b.addEventListener('click',function(){if(i===cur)return;btns[cur].setAttribute('aria-selected','false');b.setAttribute('aria-selected','true');cur=i;place(b);render(i,true);b.scrollIntoView({block:'nearest',inline:'nearest'})})});
+    place(btns[0]);addEventListener('resize',function(){place(btns[cur])});
+    var sw=$('#swipe');function swipeChk(){sw.classList.toggle('on',wrap.scrollWidth>wrap.clientWidth+4&&!sw._done)}swipeChk();addEventListener('resize',swipeChk);wrap.addEventListener('scroll',function(){if(wrap.scrollLeft>24){sw._done=1;swipeChk()}},{passive:true});
+    ScrollTrigger.create({trigger:'#vpanel',start:'top 75%',once:true,onEnter:function(){render(0,false)}});
+    if(!reduced)gsap.fromTo('#frota',{x:desk?60:24,opacity:0},{x:0,opacity:1,duration:1.4,ease:'expo.out',scrollTrigger:{trigger:'#vpanel',start:'top 75%',once:true}});
+  })();
+
+  /* ================= CONFIGURADOR: pins no carro ================= */
+  (function cfg(){
+    var suv=$('#suv');if(!suv)return;var chips=$$('#cchips .chip'),vchips=$$('#vchips .chip'),msg=$('#msg'),cta=$('#cfgcta'),lab=$('#cfglabel'),title=$('#stgTitle');
+    var veh=null,first=true;
+    var PIN='<svg class="ps" viewBox="0 0 44 52" aria-hidden="true"><path d="M22 2C11.5 2 3 10.3 3 20.6 3 34 22 50 22 50s19-16 19-29.4C41 10.3 32.5 2 22 2z" fill="#EA5A1B"/></svg>';
+    chips.forEach(function(c){
+      if(!c.dataset.pin)return;
+      var p=document.createElement('div');p.className='pin';p.style.left=c.dataset.x+'%';p.style.top=c.dataset.y+'%';p.innerHTML=PIN+svgIcon(c.dataset.pin,'pi');
+      suv.appendChild(p);c._pin=p;
+    });
+    function update(){
+      var items=chips.filter(function(c){return c.getAttribute('aria-pressed')==='true'}).map(function(c){return c.dataset.c});
+      var itemsTxt=items.length?items.join(', '):'quero ajuda para montar o plano';
+      if(!veh){msg.innerHTML='Escolha o veículo e as coberturas para montar a mensagem.';lab.textContent='Escolha o veículo';cta.setAttribute('aria-disabled','true');cta.href='#';return}
+      msg.innerHTML='<b>Veículo:</b> '+veh+'<br><b>Coberturas:</b> '+itemsTxt;
+      var text='Olá! Quero uma cotação de proteção veicular na Master Autos & Truck.\nVeículo: '+veh+'\nCoberturas: '+itemsTxt+'\nPode me passar os valores e a taxa de adesão?';
+      cta.href=WA+encodeURIComponent(text);cta.setAttribute('aria-disabled','false');lab.textContent='Pedir cotação';
+      if(first&&items.length&&!reduced){first=false;gsap.fromTo(cta,{scale:1},{scale:1.04,duration:.25,yoyo:true,repeat:1,ease:'power1.inOut'})}
+    }
+    cta.addEventListener('click',function(e){if(cta.getAttribute('aria-disabled')==='true'){e.preventDefault();vchips[0].focus()}});
+    vchips.forEach(function(c){c.addEventListener('click',function(){vchips.forEach(function(o){o.setAttribute('aria-pressed','false')});c.setAttribute('aria-pressed','true');veh=c.dataset.v;
+      var m=/Moto/.test(veh)?'Sua moto':/Caminh/.test(veh)?'Seu caminhão':'Seu veículo';title.textContent=m+', protegido onde você escolher.';
+      if(!reduced){var on=$$('.pin.on',suv);if(on.length)gsap.fromTo(on,{y:-6},{y:0,duration:.3,stagger:.03,ease:'power2.out',clearProps:'y'})}
+      update()})});
+    chips.forEach(function(c){c.addEventListener('click',function(){var on=c.getAttribute('aria-pressed')!=='true';c.setAttribute('aria-pressed',on?'true':'false');
+      if(c._pin){if(on){c._pin.classList.add('on');if(!reduced)gsap.fromTo(c._pin,{y:-26,scale:.6},{y:0,scale:1,duration:.45,ease:'back.out(1.7)',clearProps:'transform',onStart:function(){c._pin.style.opacity=1}})}
+        else{if(!reduced){gsap.to(c._pin,{scale:0,duration:.22,ease:'power2.in',onComplete:function(){c._pin.classList.remove('on');gsap.set(c._pin,{clearProps:'transform,opacity'})}})}else c._pin.classList.remove('on')}}
+      update()})});
+  })();
+
+  /* ================= CHAMADO: pin/scrub horizontal ================= */
+  (function chamado(){
+    var stops=$$('.stop'),track=$('#track');
+    if(false){
+      var prog=$('#cprog'),mk=$('#cmk'),halo=$('#chalo');
+      var dist=function(){return Math.max(0,track.scrollWidth-innerWidth+parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--pad'))*0)};
+      var st=gsap.to(track,{x:function(){return -dist()},ease:'none',scrollTrigger:{trigger:'#chamado',start:'top top',end:function(){return '+='+(dist()+innerHeight*.6)},pin:true,scrub:.8,invalidateOnRefresh:true,
+        onUpdate:function(s){var p=s.progress;prog.style.transform='scaleX('+p+')';var pw=prog.parentNode.offsetWidth;mk.style.transform='translateX('+(p*pw)+'px)';
+          var cx=innerWidth*.45,active=0,best=1e9;stops.forEach(function(el,i){var r=el.getBoundingClientRect(),d=Math.abs(r.left+r.width/2-cx);if(d<best){best=d;active=i}});
+          stops.forEach(function(el,i){el.classList.toggle('on',i===active)});
+          var r=stops[active].getBoundingClientRect();halo.style.left=(r.left+r.width/2)+'px'}}});
+      stops[0].classList.add('on');
+    }else{
+      var vp=$('#vprog');
+      stops.forEach(function(el){el.classList.add('rv');io.observe(el);ScrollTrigger.create({trigger:el,start:'top 72%',onEnter:function(){el.classList.add('on')},onLeaveBack:function(){el.classList.remove('on')}})});
+      if(vp)ScrollTrigger.create({trigger:track,start:'top 72%',end:'bottom 72%',scrub:.3,onUpdate:function(s){vp.style.transform='scaleY('+s.progress+')'}});
+    }
+  })();
+
+  /* ================= BRASIL: mapa vivo ================= */
+  ScrollTrigger.create({trigger:'#map',start:'top 70%',once:true,onEnter:function(){
+    gsap.to('#map',{opacity:1,scale:1,duration:1.1,ease:'expo.out'});
+    $('#brasil').classList.add('live');
+  }});
+  ScrollTrigger.create({trigger:'#brasil',start:'top bottom',end:'bottom top',onToggle:function(s){$$('#brasil .ring').forEach(function(r){r.style.animationPlayState=s.isActive?'running':'paused'})}});
+
+  /* ================= PAINEL: indicadores ================= */
+  (function dash(){
+    var root=$('#dash'); if(!root)return;
+    var d=new Date();$('#dupd').textContent='Atualizado em '+String(d.getDate()).padStart(2,'0')+'/'+String(d.getMonth()+1).padStart(2,'0')+'/'+d.getFullYear();
+    var DATA={
+      tipo:[['Reboque',41],['Pane seca',18],['Bateria',16],['Pneu',14],['Chaveiro',11]],
+      reg:[['Minas Gerais',46],['São Paulo',18],['Goiás',11],['Rio de Janeiro',9],['Bahia',8],['Outras',8]],
+      assoc12:[1180,1215,1240,1290,1310,1350,1380,1420,1460,1500,1540,1590],
+      assoc6:[1420,1460,1500,1540,1590,1640]
+    };
+    var MESES=['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
+    function hbars(host,rows){if(!host)return;
+      var W=Math.max(280,host.clientWidth-36),rowH=30,pad=Math.min(110,Math.round(W*.3)),H=rows.length*rowH+6,max=Math.max.apply(null,rows.map(function(r){return r[1]}));
+      var g='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Gráfico de barras">';
+      rows.forEach(function(r,i){var y=i*rowH+4,w=(W-pad-56)*(r[1]/max);
+        g+='<text class="lbl" x="0" y="'+(y+15)+'">'+r[0]+'</text>';
+        g+='<rect class="b" x="'+pad+'" y="'+y+'" width="'+w.toFixed(1)+'" height="20" rx="4" style="transition-delay:'+(i*70)+'ms"/>';
+        g+='<text class="val" x="'+(pad+w+10).toFixed(1)+'" y="'+(y+15)+'">'+r[1]+'%</text>';
+        g+='<rect class="hit" data-i="'+i+'" x="0" y="'+y+'" width="'+W+'" height="'+rowH+'"/>'});
+      g+='</svg>';
+      var t='<table><tr><th>Categoria</th><th>%</th></tr>'+rows.map(function(r){return '<tr><td>'+r[0]+'</td><td>'+r[1]+'%</td></tr>'}).join('')+'</table>';
+      host.insertAdjacentHTML('beforeend',g+'<div class="tip"></div><button class="tb" type="button" aria-expanded="false">Ver dados</button>'+t);
+      var tip=$('.tip',host);
+      $$('.hit',host).forEach(function(h){h.addEventListener('pointermove',function(e){var r=rows[+h.dataset.i],b=host.getBoundingClientRect();tip.innerHTML=r[0]+' <b>'+r[1]+'%</b>';tip.style.left=(e.clientX-b.left)+'px';tip.style.top=(e.clientY-b.top-8)+'px';tip.style.opacity=1});h.addEventListener('pointerleave',function(){tip.style.opacity=0})});
+    }
+    function line(host,vals,labels){if(!host)return;
+      var W=Math.max(280,host.clientWidth-36),H=Math.round(W*.34),L=40,R=12,T=14,B=26,max=Math.max.apply(null,vals),min=Math.min.apply(null,vals);var lo=Math.floor(min*.96/50)*50,hi=Math.ceil(max*1.02/50)*50;
+      var x=function(i){return L+(W-L-R)*i/(vals.length-1)},y=function(v){return T+(H-T-B)*(1-(v-lo)/(hi-lo))};
+      var g='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Gráfico de linha"><defs><linearGradient id="agrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF8A3D" stop-opacity=".22"/><stop offset="1" stop-color="#FF8A3D" stop-opacity="0"/></linearGradient></defs>';
+      for(var k=0;k<=4;k++){var v=lo+(hi-lo)*k/4,yy=y(v);g+='<line class="grid" x1="'+L+'" x2="'+(W-R)+'" y1="'+yy.toFixed(1)+'" y2="'+yy.toFixed(1)+'"/><text class="ax" x="'+(L-8)+'" y="'+(yy+4).toFixed(1)+'" text-anchor="end">'+Math.round(v)+'</text>'}
+      var pts=vals.map(function(v,i){return x(i).toFixed(1)+','+y(v).toFixed(1)});
+      g+='<path class="ar" d="M'+pts.join(' L')+' L'+x(vals.length-1).toFixed(1)+','+(H-B)+' L'+L+','+(H-B)+'Z"/>';
+      g+='<path class="ln" pathLength="1" d="M'+pts.join(' L')+'"/>';
+      g+='<line class="xh" id="xh" x1="0" x2="0" y1="'+T+'" y2="'+(H-B)+'"/>';
+      var step=W<420?2:1;vals.forEach(function(v,i){g+=(i%step===0||i===vals.length-1?'<text class="ax" x="'+x(i).toFixed(1)+'" y="'+(H-8)+'" text-anchor="middle">'+labels[i]+'</text>':'')+'<circle class="mk" data-i="'+i+'" cx="'+x(i).toFixed(1)+'" cy="'+y(v).toFixed(1)+'" r="4.5"/>'});
+      g+='<circle class="mk live" style="opacity:1" cx="'+x(vals.length-1).toFixed(1)+'" cy="'+y(vals[vals.length-1]).toFixed(1)+'" r="4.5"/><circle class="mk" style="opacity:1" cx="'+x(vals.length-1).toFixed(1)+'" cy="'+y(vals[vals.length-1]).toFixed(1)+'" r="4.5"/><text class="val" x="'+(x(vals.length-1)-8).toFixed(1)+'" y="'+(y(vals[vals.length-1])-10).toFixed(1)+'" text-anchor="end" style="fill:var(--mist)">'+vals[vals.length-1]+'</text>';
+      g+='<rect class="hit" id="lhit" x="'+L+'" y="0" width="'+(W-L-R)+'" height="'+H+'"/></svg>';
+      var t='<table><tr><th>Mês</th><th>Associados</th></tr>'+vals.map(function(v,i){return '<tr><td>'+labels[i]+'</td><td>'+v+'</td></tr>'}).join('')+'</table>';
+      $$('svg,.tip,.tb,table',host).forEach(function(n){n.remove()});
+      host.insertAdjacentHTML('beforeend',g+'<div class="tip"></div><button class="tb" type="button" aria-expanded="false">Ver dados</button>'+t);
+      var tip=$('.tip',host),svg=$('svg',host),xh=$('#xh',host),mks=$$('.mk',host);
+      $('#lhit',host).addEventListener('pointermove',function(e){var b=svg.getBoundingClientRect(),px=(e.clientX-b.left)/b.width*W,i=Math.round((px-L)/((W-L-R)/(vals.length-1)));i=Math.max(0,Math.min(vals.length-1,i));
+        xh.setAttribute('x1',x(i));xh.setAttribute('x2',x(i));xh.style.opacity=1;mks.forEach(function(m,k){m.style.opacity=(k===i||k===mks.length-1)?1:0});
+        var hb=host.getBoundingClientRect();tip.innerHTML=labels[i]+' <b>'+vals[i]+'</b> associados';tip.style.left=(b.left-hb.left+x(i)/W*b.width)+'px';tip.style.top=(b.top-hb.top+y(vals[i])/H*b.height-6)+'px';tip.style.opacity=1});
+      $('#lhit',host).addEventListener('pointerleave',function(){tip.style.opacity=0;xh.style.opacity=0;mks.forEach(function(m,k){m.style.opacity=k===mks.length-1?1:0})});
+      host.classList.add('in');
+    }
+    function tableToggles(){$$('.tb',root).forEach(function(b){if(b._w)return;b._w=1;b.addEventListener('click',function(){var t=b.nextElementSibling,o=!t.classList.contains('on');t.classList.toggle('on',o);b.setAttribute('aria-expanded',o);b.textContent=o?'Ocultar dados':'Ver dados'})})}
+    DATA.frota=[["Carro de passeio",52],["Caminhonete pesada",18],["Caminhão leve e van",12],["Moto",10],["Caminhão pesado",8]];
+    var COL=["#FF8A3D","#EA5A1B","#B23F0D","#7A2B08","#A39B92"];
+    function donut(host,rows){if(!host)return;var R=54,C=2*Math.PI*R,tot=rows.reduce(function(a,r){return a+r[1]},0),acc=0,g="<div class=\"dn\"><svg viewBox=\"0 0 140 140\" role=\"img\" aria-label=\"Gráfico de rosca\">";
+      rows.forEach(function(r,i){var len=C*r[1]/tot;g+="<circle class=\"ds\" cx=\"70\" cy=\"70\" r=\"54\" fill=\"none\" stroke=\""+COL[i]+"\" stroke-width=\"14\" style=\"--d:"+(Math.max(0,len-2)).toFixed(1)+" 1000;transition-delay:"+(i*110)+"ms\" stroke-dashoffset=\""+(-acc+C/4).toFixed(1)+"\"/>";acc+=len});
+      g+="<text class=\"dv\" x=\"70\" y=\"68\" text-anchor=\"middle\">"+rows[0][1]+"%</text><text class=\"dl\" x=\"70\" y=\"86\" text-anchor=\"middle\">"+rows[0][0]+"</text></svg><ul>"+rows.map(function(r,i){return "<li><i style=\"background:"+COL[i]+"\"></i>"+r[0]+"<b>"+r[1]+"%</b></li>"}).join("")+"</ul></div>";
+      host.insertAdjacentHTML("beforeend",g);
+      var t="<table><tr><th>Categoria</th><th>%</th></tr>"+rows.map(function(r){return "<tr><td>"+r[0]+"</td><td>"+r[1]+"%</td></tr>"}).join("")+"</table>";
+      host.insertAdjacentHTML("beforeend","<button class=\"tb\" type=\"button\" aria-expanded=\"false\">Ver dados</button>"+t);
+      $$("li",host).forEach(function(li,i){li.addEventListener("mouseenter",function(){$(".dv",host).textContent=rows[i][1]+"%";$(".dl",host).textContent=rows[i][0]})})}
+    hbars($('#ch-tipo'),DATA.tipo);hbars($('#ch-reg'),DATA.reg);donut($('#ch-frota'),DATA.frota);
+    /* vida do painel: barras "atualizam" a cada 6s e um ponto varre a linha */
+    function jitter(){if(document.hidden||!root.classList.contains("in"))return;[["#ch-tipo",DATA.tipo],["#ch-reg",DATA.reg]].forEach(function(p){var host=$(p[0]);if(!host)return;var rects=$$("rect.b",host),vals=$$("text.val",host),max=Math.max.apply(null,p[1].map(function(r){return r[1]})),W=Math.max(280,host.clientWidth-36),pad=Math.min(110,Math.round(W*.3));
+      p[1].forEach(function(r,i){var v=Math.max(1,r[1]+(Math.random()<.5?-1:1));if(Math.abs(v-r[1])>3)v=r[1];r[1]=v;var w=(W-pad-56)*(v/max);if(rects[i]){gsap.to(rects[i],{attr:{width:w},duration:.9,ease:"power2.inOut"});gsap.to(vals[i],{attr:{x:pad+w+10},duration:.9,ease:"power2.inOut"});vals[i].textContent=v+"%"}})})}
+    setInterval(jitter,6000);
+    function scan(){var host=$("#ch-assoc"),ln=host&&$("path.ln",host);if(!ln||document.hidden||!root.classList.contains("in"))return;var svg=$("svg",host);var dot=$(".scan",svg);if(!dot){dot=document.createElementNS("http://www.w3.org/2000/svg","circle");dot.setAttribute("class","scan");dot.setAttribute("r","3.5");svg.appendChild(dot)}var L=ln.getTotalLength(),o={t:0};gsap.to(o,{t:1,duration:3.2,ease:"sine.inOut",onStart:function(){dot.style.opacity=1},onUpdate:function(){var pt=ln.getPointAtLength(o.t*L);dot.setAttribute("cx",pt.x);dot.setAttribute("cy",pt.y)},onComplete:function(){dot.style.opacity=0}})}
+    setInterval(scan,5200);
+    function months(n){var m=new Date().getMonth(),out=[];for(var i=n-1;i>=0;i--)out.push(MESES[(m-i+24)%12]);return out}
+    line($('#ch-assoc'),DATA.assoc12,months(12));tableToggles();
+    var rt;addEventListener('resize',function(){clearTimeout(rt);rt=setTimeout(function(){$$('#ch-tipo svg,#ch-tipo .tip,#ch-tipo .tb,#ch-tipo table,#ch-reg svg,#ch-reg .tip,#ch-reg .tb,#ch-reg table').forEach(function(n){n.remove()});hbars($('#ch-tipo'),DATA.tipo);hbars($('#ch-reg'),DATA.reg);var fb=$('.fl button[aria-pressed=true][data-range]',root);var n=fb?+fb.dataset.range:12;line($('#ch-assoc'),n===6?DATA.assoc6:DATA.assoc12,months(n));tableToggles();$$('.chart',root).forEach(function(c){c.classList.add('in')})},250)});
+    $$('.fl button[data-range]',root).forEach(function(b){b.addEventListener('click',function(){$$('.fl button[data-range]',root).forEach(function(o){o.setAttribute('aria-pressed','false')});b.setAttribute('aria-pressed','true');var n=+b.dataset.range;line($('#ch-assoc'),n===6?DATA.assoc6:DATA.assoc12,months(n));tableToggles()})});
+    var sw;if(!reduced){sw=document.createElement('div');sw.className='sweep';root.style.position='relative';root.appendChild(sw);
+        setInterval(function(){if(document.hidden)return;var r=root.getBoundingClientRect();if(r.bottom<0||r.top>innerHeight)return;
+          gsap.fromTo(sw,{opacity:1,backgroundPosition:'120% 0'},{backgroundPosition:'-20% 0',duration:1.6,ease:'power2.inOut',onComplete:function(){sw.style.opacity=0}});
+          $('#dupd').textContent='Atualizado agora';setTimeout(function(){var d=new Date();$('#dupd').textContent='Atualizado em '+String(d.getDate()).padStart(2,'0')+'/'+String(d.getMonth()+1).padStart(2,'0')+'/'+d.getFullYear()},2500)},9000)}
+    function dashIn(){
+      root.classList.add('in');
+      setTimeout(function(){$$('.chart',root).forEach(function(c){c.classList.add('in')})},reduced?0:380);
+      $$('.tile .v',root).forEach(function(v){var n=+v.dataset.n,t=v.querySelector('span')||v;if(reduced){t.textContent=n;return}var o={x:0};gsap.to(o,{x:n,duration:.9,ease:'power2.out',onUpdate:function(){t.textContent=Math.round(o.x)}})});
+    }
+    function dashOut(){root.classList.remove('in');$$('.chart',root).forEach(function(c){c.classList.remove('in')});$$('.tile .v',root).forEach(function(v){(v.querySelector('span')||v).textContent='0'})}
+    /* replay a cada entrada na tela (Ben quer ver o painel animar) */
+    new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)dashIn();else dashOut()})},{threshold:.12}).observe(root);
+  })();
+
+  /* ================= FAQ ================= */
+  $$('#acc .it').forEach(function(it){var b=$('button',it);b.addEventListener('click',function(){var o=!it.classList.contains('open');it.classList.toggle('open',o);b.setAttribute('aria-expanded',o)})});
+
+  /* ================= CONTATO ================= */
+  ScrollTrigger.create({trigger:'.split',start:'top 80%',once:true,onEnter:function(){$('#pane').classList.add('in');$('#qform').classList.add('in')}});
+  var form=$('#qform');
+  form.addEventListener('submit',function(e){
+    e.preventDefault();var ok=true;
+    $$('.f',form).forEach(function(f){var i=$('input,select',f);var v=i.value.trim();var bad=!v||(i.type==='tel'&&v.replace(/\D/g,'').length<10);f.classList.toggle('bad',bad);if(bad&&ok){ok=false;i.focus()}});
+    if(!ok)return;
+    var d={n:$('#fn').value.trim(),w:$('#fw').value.trim(),v:$('#fv').value,c:$('#fc').value.trim()};
+    var text='Olá! Quero uma cotação de proteção veicular na Master Autos & Truck.\nNome: '+d.n+'\nWhatsApp: '+d.w+'\nVeículo: '+d.v+'\nCidade: '+d.c+'\nPode me passar os valores e a taxa de adesão?';
+    var btn=$('#fsend');btn.textContent='abrindo WhatsApp…';gsap.fromTo(btn,{scale:.97},{scale:1,duration:.2});
+    window.open(WA+encodeURIComponent(text),'_blank','noopener');
+    setTimeout(function(){btn.textContent='Pedir cotação';$('#fok').style.display='block'},600);
+  });
+  $$('.f input,.f select',form).forEach(function(i){i.addEventListener('input',function(){i.closest('.f').classList.remove('bad')})});
+})();
+</script>
+</body>
+</html>
